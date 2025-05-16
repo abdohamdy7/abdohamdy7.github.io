@@ -1,0 +1,50 @@
+/* ==========================================================================
+   MINT THEME
+   ========================================================================== */
+
+/* Mint color palette */
+$mint-green                 : #b4f8c8;
+$mint-dark                  : #2eb872;
+$mint-darker                : #21925b;
+$gray                       : #7a8288;
+$dark-gray                  : mix(#000, $gray, 40%);
+$darker-gray                : mix(#000, $gray, 60%);
+$light-gray                 : #9ba1a6;
+$lighter-gray               : mix(#fff, $gray, 90%);
+
+/* Accent Colors */
+$danger-color               : #e76f51;
+$info-color                 : #38a3a5;
+$notice-color               : #7a8288;
+$success-color              : #62c462;
+$warning-color              : #f4a261;
+
+/* Template Layout Settings */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Mint Theme CSS Variables */
+:root {
+    --global-base-color                 : #{$gray};
+    --global-bg-color                   : #f9fff9;
+    --global-footer-bg-color            : #e0fce5;
+    --global-border-color               : #{$lighter-gray};
+    --global-dark-border-color          : #b8d8ba;
+    --global-code-background-color      : #eaffea;
+    --global-code-text-color            : #{$darker-gray};
+    --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
+    --global-link-color                 : #{$mint-dark};
+    --global-link-color-hover           : mix(#000, #{$mint-dark}, 25%);
+    --global-link-color-visited         : mix(#fff, #{$mint-dark}, 25%);
+    --global-masthead-link-color        : #{$mint-darker};
+    --global-masthead-link-color-hover  : mix(#000, #{$mint-darker}, 25%);
+    --global-text-color                 : #{$dark-gray};
+    --global-text-color-light           : #{$light-gray};
+    --global-thead-color                : #{$mint-green};
+}
