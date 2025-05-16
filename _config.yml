@@ -9,6 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
+minimal_mistakes_skin: "air"
 title                    : "Abdulrahman Hamdy Ahmad"
 title_separator          : "-"
 name                     : &name "Abdulrahman Hamdy Ahmad"
@@ -38,7 +39,7 @@ author:
   impactstory      : # URL
   orcid            : "https://orcid.org/my-orcid?orcid=0000-0002-1067-9745"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
 
