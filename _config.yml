@@ -8,8 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
-minimal_mistakes_skin: "air"
+# site_theme               : "default"
+minimal_mistakes_skin    : "dark"
 title                    : "Abdulrahman Hamdy Ahmad"
 title_separator          : "-"
 name                     : &name "Abdulrahman Hamdy Ahmad"
