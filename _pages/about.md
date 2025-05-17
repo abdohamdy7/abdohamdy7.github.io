@@ -55,7 +55,7 @@ redirect_from:
 
 ## 📬 Let’s Connect!
 
-Feel free to check out my [Google Scholar](https://scholar.google.com/), [GitHub](https://github.com/yourusername), or [LinkedIn](https://www.linkedin.com/in/yourprofile).
+Feel free to check out my [Google Scholar](https://scholar.google.com/citations?user=-yqOHxIAAAAJ&hl=en), [GitHub](https://github.com/abdohamdy7), or [LinkedIn](https://www.linkedin.com/in/abdurrahmanhamdy).
 
 📫 You can also reach me at: **abdulrahman_hamdy@ieee.org**
 
