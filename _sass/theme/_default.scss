@@ -1,50 +1,50 @@
 /* ==========================================================================
-   BLUE THEME
+   AIR THEME (Minimal, Clean, Pastel)
    ========================================================================== */
 
-/* Blue Color Palette */
-$light-blue      : #e8f4fd;
-$mid-blue        : #2196f3;
-$dark-blue       : #0d47a1;
-$gray            : #7a8288;
-$dark-gray       : mix(#000, $gray, 40%);
-$darker-gray     : mix(#000, $gray, 60%);
-$light-gray      : #9ba1a6;
-$lighter-gray    : mix(#fff, $gray, 90%);
+/* Air-Inspired Color Palette */
+$light-air-blue   : #f5faff;
+$mid-air-blue     : #a7c7e7;
+$dark-air-blue    : #06507e;
+$cool-gray        : #6c757d;
+$dark-cool-gray   : mix(#000, $cool-gray, 40%);
+$darker-cool-gray : mix(#000, $cool-gray, 60%);
+$light-cool-gray  : #adb5bd;
+$lighter-cool-gray: mix(#fff, $cool-gray, 90%);
 
 /* Accent Colors */
-$danger-color    : #ef5350;
-$info-color      : #2196f3;
-$notice-color    : #64b5f6;
-$success-color   : #4caf50;
-$warning-color   : #ffb300;
+$danger-color     : #f08080;  // Soft coral
+$info-color       : #5bc0de;  // Light cyan-blue
+$notice-color     : #90caf9;  // Soft blue
+$success-color    : #81c784;  // Soft green
+$warning-color    : #ffcc80;  // Soft orange
 
 /* Template Variables */
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
-$global-transition          : all 0.2s ease-in-out;
+$border-radius              : 6px;
+$box-shadow                 : 0 1px 4px rgba(0, 0, 0, 0.08);
+$global-transition          : all 0.25s ease-in-out;
 $masthead-height            : 70px;
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Blue Theme Variables */
+/* Air Theme Variables */
 :root {
-  --global-base-color                 : #{$gray};
-  --global-bg-color                   : #{$light-blue};
-  --global-footer-bg-color            : #dbeefc;
-  --global-border-color               : #{$lighter-gray};
-  --global-dark-border-color          : #bdd4ec;
-  --global-code-background-color      : #f0f8ff;
-  --global-code-text-color            : #{$darker-gray};
-  --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
-  --global-link-color                 : #{$mid-blue};
-  --global-link-color-hover           : mix(#000, #{$mid-blue}, 25%);
-  --global-link-color-visited         : mix(#fff, #{$mid-blue}, 25%);
-  --global-masthead-link-color        : #{$dark-blue};
-  --global-masthead-link-color-hover  : mix(#000, #{$dark-blue}, 25%);
-  --global-text-color                 : #{$dark-gray};
-  --global-text-color-light           : #{$light-gray};
-  --global-thead-color                : #bbdefb;
+  --global-base-color                 : #{$cool-gray};
+  --global-bg-color                   : #{#ffffff};
+  --global-footer-bg-color            : #e9f2fb;
+  --global-border-color               : #{$lighter-cool-gray};
+  --global-dark-border-color          : #cfdce6;
+  --global-code-background-color      : #f9fbfd;
+  --global-code-text-color            : #{$darker-cool-gray};
+  --global-fig-caption-color          : mix(#fff,  #{$dark-cool-gray}, 25%);
+  --global-link-color                 : #{$dark-air-blue};
+  --global-link-color-hover           : mix(#000, #{$dark-air-blue},75%);
+  --global-link-color-visited         : mix(#fff, #{$dark-air-blue}, 25%);
+  --global-masthead-link-color        : #{$dark-air-blue};
+  --global-masthead-link-color-hover  : mix(#000, #{$dark-air-blue}, 75%);
+  --global-text-color                 : #{$dark-cool-gray};
+  --global-text-color-light           : #{$light-cool-gray};
+  --global-thead-color                : #ddeef9;
 }

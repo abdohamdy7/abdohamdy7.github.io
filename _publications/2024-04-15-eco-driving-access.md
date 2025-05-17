@@ -19,7 +19,9 @@ This paper presents an eco-driving framework for autonomous vehicles operating a
 
 ### 🎥 Demo Video
 
-<video width="600" controls style="border-radius: 8px; margin-top: 10px;">
-  <source src="\assets\videos\eco_driving_paper\ecodriving_paper_video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div style="position: relative; width: 100%; padding-top: 56.25%; margin-top: 1em; border-radius: 8px; overflow: hidden;">
+  <video controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    <source src="/assets/videos/eco_driving_paper/ecodriving_paper_video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
