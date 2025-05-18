@@ -2,6 +2,7 @@
 title: "Multiple Intelligent Control Strategies for Travel-Time Reduction of Connected Emergency Vehicles"
 collection: publications
 category: manuscripts
+scopus_index: Top 2%  # or Q2, Q3, Q4
 permalink: /publication/2025-01-01-multiple-intelligent-control
 excerpt: "A framework integrating signal preemption and dynamic path planning to reduce emergency vehicle delay in connected environments."
 date: 2025-01-01
@@ -20,6 +21,6 @@ This paper proposes a set of intelligent strategies for reducing the travel time
 ### 🎥 Demo Video
 
 <video width="600" controls style="border-radius: 8px; margin-top: 10px;">
-  <source src="/assets/videos/multiple_control_paper/demo_video.mp4" type="video/mp4">
+  <source src="/assets/videos/multiple_intelligent_control_TITS/demo_video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>

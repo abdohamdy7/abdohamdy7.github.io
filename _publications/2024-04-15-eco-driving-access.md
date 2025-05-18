@@ -2,6 +2,7 @@
 title: "Eco-Driving Framework for Autonomous Vehicles at Signalized Intersections in Mixed-Traffic Environment"
 collection: publications
 category: manuscripts
+scopus_index: Top 8%
 permalink: /publication/2024-04-15-eco-driving-access
 excerpt: "A framework that integrates eco-driving strategies for AVs in mixed-traffic urban intersections."
 date: 2024-04-15

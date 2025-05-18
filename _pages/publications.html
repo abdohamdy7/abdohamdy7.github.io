@@ -6,7 +6,8 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">🔎📚 You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>! 🎓✨</div>
+  <div class="wordwrap">🧐📽️ Curious for more? click on each paper to watch the demo videos! 🎬🤖</div>
 {% endif %}
 
 {% include base_path %}
@@ -27,3 +28,53 @@ author_profile: true
   
   {% include archive-single.html %}
 {% endfor %}
+
+<hr />
+<h2>📚 Summary Tables</h2>
+
+<h3>📘 Journal Publications</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Paper Title</th>
+      <th>Journal</th>
+      <th>Year</th>
+      <th>Scopus Index</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign journal_pubs = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
+    {% for post in journal_pubs %}
+      <tr>
+        <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+        <td>{{ post.venue }}</td>
+        <td>{{ post.date | date: "%Y" }}</td>
+        <td>{{ post.scopus_index | default: "N/A" }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+
+<h3>🎤 Conference Publications</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Paper Title</th>
+      <th>Conference</th>
+      <th>Year</th>
+      <th>Rank</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign conf_pubs = site.publications | where: "category", "conference" | sort: "date" | reverse %}
+    {% for post in conf_pubs %}
+      <tr>
+        <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+        <td>{{ post.venue }}</td>
+        <td>{{ post.date | date: "%Y" }}</td>
+        <td>{{ post.rank | default: "N/A" }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

@@ -17,11 +17,13 @@ redirect_from:
 
 - 🧠 **PhD in Electrical Engineering and Computer Science**  
   Khalifa University of Science and Technology, 2023 – Present  
-  *Focusing on online risk-aware motion planning for autonomous vehilces.*
+  *Focusing on online risk-aware motion planning for autonomous vehicles.*  
+  Working under the supervision of [Dr. Majid Khonji](https://www.ku.ac.ae/college-people/majid-khonji) 👨‍🏫 in the [Autonomous Vehicles Lab](https://avlab.io/) 🚗.
 
 - 📚 **MSc in Electrical Engineering and Computer Science**  
-  Khalifa University of Science and Technolog, 2021 – 2022 
-  *Thesis on eco-driving and control strategies for connected autonomous vehicles at signalized intersections.*
+  Khalifa University of Science and Technology, 2021 – 2022  
+  *Thesis on eco-driving and control strategies for connected autonomous vehicles at signalized intersections.*  
+  Supervised by [Dr. Ameena Al-Sumaiti](https://www.ku.ac.ae/college-people/ameena-al-sumaiti) 👩‍🏫 in the [Smart Operation Research Lab](https://www.ku.ac.ae/facilities/the-smart-operation-lab) 📈.
 
 ---
 
