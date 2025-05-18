@@ -11,6 +11,8 @@ redirect_from:
 
 🚗 I work at the intersection of **Optimization**, **Algorithm Design**, **Machine Learning**, **Vision-language Models**, and **Motion Planning** for real-world applications in **Robotics** and **Autonomous Driving**.
 
+I’m proudly from **Egypt** — the Cradle of civilization 🛕📡🏺 — now thriving in the UAE with a shiny **Golden Visa** ✨ in my pocket!
+
 ---
 
 ## 🎓 Academic Journey
@@ -36,22 +38,22 @@ redirect_from:
 - ⏱️ Real-Time Decision Making Under Uncertainty
 
 ---
-
+<!-- 
 ## 🛠️ Tools & Tech I Work With
 
-- 🧠 Python, PyTorch, TensorFlow  
+- 🧠 Machine Learning: Python, PyTorch, TensorFlow  
 - 🛣️ ROS2, CARLA Simulator  
 - 📹 OpenCV, Detectron2, CLIP, BLIP  
-- 📈 Gurobi, JAX, LaTeX  
-- ☁️ GitHub, VS Code
+- 📈 Optimization: many solvers such as Gurobi, ....etc  
+- ☁️ Coding: GitHub, VS Code -->
 
 ---
 
 ## ✨ Fun Facts
 
 - ☕ Coffee fuels most of my debugging sessions.
-- 🌍 Always excited to collaborate across disciplines.
-- 🎮 I occasionally prototype AV systems with game engines just for fun!
+- 🌍 Always excited to collaborate across disciplines. "I like teamwork".
+- 🎮 I Love Gaming: FIFA, PES, and Chess
 
 ---
 

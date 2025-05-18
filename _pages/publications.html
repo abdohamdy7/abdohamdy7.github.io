@@ -11,24 +11,6 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
-
-<!-- Sort all publications by date descending -->
-{% assign sorted_pubs = site.publications | sort: "date" | reverse %}
-{% assign current_year = "" %}
-
-{% for post in sorted_pubs %}
-  {% assign post_year = post.date | date: "%Y" %}
-  
-  {% if post_year != current_year %}
-    <div style="background-color: #f8f8f8; padding: 10px; border-left: 4px solid #007acc; margin-top: 2em;">
-      <h2 style="margin: 0;"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post_year }}</h2>
-    </div>
-    {% assign current_year = post_year %}
-  {% endif %}
-  
-  {% include archive-single.html %}
-{% endfor %}
-
 <hr />
 <h2>📚 Summary Tables</h2>
 
@@ -78,3 +60,70 @@ author_profile: true
     {% endfor %}
   </tbody>
 </table>
+
+<!-- Sort all publications by date descending -->
+{% assign sorted_pubs = site.publications | sort: "date" | reverse %}
+{% assign current_year = "" %}
+
+{% for post in sorted_pubs %}
+  {% assign post_year = post.date | date: "%Y" %}
+  
+  {% if post_year != current_year %}
+    <div style="background-color: #f8f8f8; padding: 10px; border-left: 4px solid #007acc; margin-top: 2em;">
+      <h2 style="margin: 0;"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post_year }}</h2>
+    </div>
+    {% assign current_year = post_year %}
+  {% endif %}
+  
+  {% include archive-single.html %}
+{% endfor %}
+
+<!-- <hr />
+<h2>📚 Summary Tables</h2>
+
+<h3>📘 Journal Publications</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Paper Title</th>
+      <th>Journal</th>
+      <th>Year</th>
+      <th>Scopus Index</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign journal_pubs = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
+    {% for post in journal_pubs %}
+      <tr>
+        <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+        <td>{{ post.venue }}</td>
+        <td>{{ post.date | date: "%Y" }}</td>
+        <td>{{ post.scopus_index | default: "N/A" }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+
+<h3>🎤 Conference Publications</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Paper Title</th>
+      <th>Conference</th>
+      <th>Year</th>
+      <th>Rank</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign conf_pubs = site.publications | where: "category", "conference" | sort: "date" | reverse %}
+    {% for post in conf_pubs %}
+      <tr>
+        <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+        <td>{{ post.venue }}</td>
+        <td>{{ post.date | date: "%Y" }}</td>
+        <td>{{ post.rank | default: "N/A" }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table> -->

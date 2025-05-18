@@ -18,9 +18,27 @@ This paper proposes a set of intelligent strategies for reducing the travel time
 
 ---
 
-### 🎥 Demo Video
+### 🎥 Demo Video 1: Integrated system working (Simulation Tool: PTV-VISSIM)
 
 <video width="600" controls style="border-radius: 8px; margin-top: 10px;">
-  <source src="/assets/videos/multiple_intelligent_control_TITS/demo_video.mp4" type="video/mp4">
+  <source src="/assets/videos/multiple_intelligent_control_TITS/tits-video3.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+---
+
+### 🎥 Demo Video 2: Lanes-Merging To Give-way to the Emergency Vehicles (Simulation Tool: PTV-VISSIM)
+
+<video width="600" controls style="border-radius: 8px; margin-top: 10px;">
+  <source src="/assets/videos/multiple_intelligent_control_TITS/tits-video2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+<video width="600" controls style="border-radius: 8px; margin-top: 10px;">
+  <source src="/assets/videos/multiple_intelligent_control_TITS/tits-video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
+
