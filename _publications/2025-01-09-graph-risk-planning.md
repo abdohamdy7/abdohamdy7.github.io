@@ -18,3 +18,13 @@ We propose a **graph-based local planning method** using a lattice graph that re
 At the core of our system is a **spatiotemporal risk assessment module** that conservatively evaluates collision risk with both static and moving objects. The planner successfully operates in urban driving scenarios while honoring safety margins and driving preferences.
 
 <img src="/images/publications/graph-risk-planning.jpg" alt="Graphical Abstract" width="600" style="border-radius: 8px;" />
+---
+
+### 🎥 Demo Video
+
+<div style="position: relative; width: 100%; padding-top: 56.25%; margin-top: 1em; border-radius: 8px; overflow: hidden;">
+  <video controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    <source src="/assets/videos/graph_based_local_planing/video_demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
