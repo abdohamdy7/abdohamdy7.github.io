@@ -16,8 +16,9 @@ This paper addresses the challenge of risk-bounded motion planning for autonomou
 We propose a **graph-based local planning method** using a lattice graph that respects vehicle curvature constraints. Trajectory planning is formulated as an integer linear program with a custom **risk-bounded and prediction-aware shortest path** algorithm.
 
 At the core of our system is a **spatiotemporal risk assessment module** that conservatively evaluates collision risk with both static and moving objects. The planner successfully operates in urban driving scenarios while honoring safety margins and driving preferences.
+<img src="/images/publications/graph-risk-planning-system.jpg" alt="Graphical Abstract" width="800" style="border-radius: 8px;" />
 
-<img src="/images/publications/graph-risk-planning.jpg" alt="Graphical Abstract" width="600" style="border-radius: 8px;" />
+<img src="/images/publications/graph-risk-planning.jpg" alt="Graphical Abstract2" width="400" style="border-radius: 8px;" />
 ---
 
 ### 🎥 Demo Video
