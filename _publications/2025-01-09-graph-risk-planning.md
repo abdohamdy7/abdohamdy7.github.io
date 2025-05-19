@@ -5,6 +5,7 @@ category: conference
 permalink: /publication/2025-01-09-graph-risk-planning
 excerpt: "A risk-aware graph-based local planner for autonomous driving that integrates spatiotemporal risk assessment and constrained shortest-path optimization."
 date: 2025-01-09
+paperurl: 'https://ieeexplore.ieee.org/document/10746244'
 venue: '2024 18th International Conference on Control, Automation, Robotics and Vision (ICARCV), pp. 1–8'
 citation: '<b>Abdulrahman Ahmad</b>, Majid Khonji, Ameena Al-Sumaiti, Jorge Dias, Khaled Elbassioni. (2025). "Graph-Based Local Planning with Spatiotemporal Risk Assessment For Risk-Bounded and Prediction-Aware Autonomous Driving." <i>2024 18th International Conference on Control, Automation, Robotics and Vision (ICARCV)</i>, IEEE, pp. 1–8.'
 rank: B  # Update based on conference ranking if known

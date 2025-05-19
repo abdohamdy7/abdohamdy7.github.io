@@ -7,7 +7,7 @@ permalink: /publication/2017-12-19-hybrid-controller-i2ot
 excerpt: "A hybrid controller approach applied to a lab-scale I2oT system."
 date: 2017-12-19
 venue: '2017 12th International Conference on Computer Engineering and Systems (ICCES), pp. 266–271'
-paperurl: 'https://ieeexplore.ieee.org/document/8275339'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/8275316'
 citation: 'Mohammed Moness, Ahmed M Moustafa, <b>Abdur-Rahman H Muhammad</b>, Al-Shaimaa A Younis. (2017). "Hybrid Controller for a Software-Defined Architecture of Industrial Internet Lab-Scale Process." <i>2017 12th International Conference on Computer Engineering and Systems (ICCES)</i>, IEEE, pp. 266–271.'
 graphical_abstract: /images/publications/hybrid arch.jpg
 ---
