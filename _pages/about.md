@@ -11,7 +11,7 @@ redirect_from:
 
 🚗 I work at the intersection of **Optimization**, **Algorithm Design**, **Machine Learning**, **Vision-language Models**, and **Motion Planning** for real-world applications in **Robotics** and **Autonomous Driving**.
 
-I’m proudly from **Egypt** — the Cradle of civilization 🛕📡🏺 — now thriving in the UAE with a shiny **Golden Visa** ✨ in my pocket!
+I’m proudly Muslim and from **Egypt**  — the Cradle of civilization 𓂀𓋹𓃠☥𓅓 — and now thriving in the UAE with a shiny **Golden Visa** ✨ in my pocket!
 
 ---
 
