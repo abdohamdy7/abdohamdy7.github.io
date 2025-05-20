@@ -14,6 +14,29 @@ author_profile: true
 <hr />
 <h2>📚 Summary Tables</h2>
 
+<h3>📖 Thesis Works</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Institution</th>
+      <th>Year</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign thesis_pubs = site.publications | where: "category", "thesis" | sort: "date" | reverse %}
+    {% for post in thesis_pubs %}
+    <tr>
+      <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+      <td>{{ post.venue }}</td>
+      <td>{{ post.date | date: "%Y" }}</td>
+      <td>{% if post.title contains "Bachelor" or post.venue contains "BEng" %}BEng{% else %}MSc{% endif %}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
 <h3>📘 Journal Publications</h3>
 <table>
   <thead>
@@ -69,14 +92,37 @@ author_profile: true
   {% assign post_year = post.date | date: "%Y" %}
   
   {% if post_year != current_year %}
-    <div style="background-color: #f8f8f8; padding: 10px; border-left: 4px solid #007acc; margin-top: 2em;">
-      <h2 style="margin: 0;"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post_year }}</h2>
+    <div style="background-color: #caedfac0; padding: 6px; border-left: 4px solid #007acc; margin-top: 2em;">
+      <h3 style="margin: 0;"><i class="far fa-calendar" aria-hidden="true"></i> {{ post_year }}</h3>
     </div>
     {% assign current_year = post_year %}
   {% endif %}
   
   {% include archive-single.html %}
 {% endfor %}
+<!-- 
+<h3 style="margin-top: 2rem;">📖 <span style="background-color: #f0f8ff; padding: 4px 8px; border-radius: 6px;">Thesis Works</span></h3>
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Institution</th>
+      <th>Year</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign thesis_pubs = site.publications | where: "category", "thesis" | sort: "date" | reverse %}
+    {% for post in thesis_pubs %}
+    <tr>
+      <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+      <td>{{ post.venue }}</td>
+      <td>{{ post.date | date: "%Y" }}</td>
+      <td>{% if post.title contains "Bachelor" or post.venue contains "BEng" %}BEng{% else %}MSc{% endif %}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table> -->
 
 <!-- <hr />
 <h2>📚 Summary Tables</h2>
