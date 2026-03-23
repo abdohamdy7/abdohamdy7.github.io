@@ -15,6 +15,29 @@
 
 See more info at https://academicpages.github.io/
 
+## Import publications from Google Scholar
+
+If you export your profile from Google Scholar as BibTeX, you can convert it into publication pages for this site with:
+
+```bash
+python3 scripts/import_google_scholar_bibtex.py path/to/scholar-export.bib \
+  --highlight-author "Abdulrahman Ahmad"
+```
+
+That command performs a dry run and shows the files it would generate in `_publications/`.
+
+To actually write the files:
+
+```bash
+python3 scripts/import_google_scholar_bibtex.py path/to/scholar-export.bib \
+  --highlight-author "Abdulrahman Ahmad" \
+  --write
+```
+
+If you want the importer to replace existing publication files with matching generated filenames, add `--overwrite`.
+
+The importer tries to match existing files in `_publications/` by DOI first and then by title, so it can update your current publication pages instead of creating duplicates.
+
 ## Running locally
 
 When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
