@@ -6,17 +6,15 @@ permalink: /publication/2016-06-01-beng-thesis
 excerpt: "Bachelor thesis project focused on applying Industrial IoT (I2oT) to a lab-scale control system using real-time remote monitoring and genetic algorithm-tuned PI controllers."
 date: 2016-06-01
 venue: "BEng Thesis, Minya University, Egypt"
-citation: "<b>Abdur-Rahman Hamdy</b>, Al-Shaimaa Younis. (2016). \"Industrial IoT-Based Control of a Quadruple-Tank Benchmark Process.\" <i>Bachelor of Engineering Thesis, Minya University, Faculty of Engineering</i>."
-paperurl: "https://www.researchgate.net/publication/333994626_Industrial_Internet_of_Things_for_Automation_of_a_Lab-scale_Benchmark_Process"  # Optional
+citation: "<b>Abdulrahman Ahmad</b>. (2016). \"Industrial Internet of Things for Automation of a Lab-scale Benchmark Process.\" <i>Bachelor of Engineering Thesis, Minya University</i>."
+paperurl: "https://www.researchgate.net/publication/333994626_Industrial_Internet_of_Things_for_Automation_of_a_Lab-scale_Benchmark_Process"
 graphical_abstract: /images/publications/beng_thesis.jpg
 ---
 
-**Abstract:**  
-Internet of Things (IoT) is a hot emerging area that has invaded many aspects of real world applications such as: healthcare, smart buildings, transportation, energy, etc. One rising field of IoT is the **Industrial IoT (I2oT)**. I2oT tends to upgrade current industrial technologies for the next level of automation using IoT and is forming the basis for the upcoming industrial revolution.
+This undergraduate thesis focused on building an Industrial Internet of Things architecture for a lab-scale benchmark process with remote monitoring, distributed control, and real-time experimentation.
 
-This project applies an I2oT environment to a **lab-scale industrial process** that can be remotely monitored and controlled. The **quadruple tank problem (QTP)** was selected as the benchmark process due to its popularity in academia for illustrating concepts in multivariable control systems.
+The work covered the full pipeline from system modeling and controller design to hardware-in-the-loop simulation and deployment on IoT-enabled embedded hardware. The quadruple-tank process was used as the benchmark application.
 
-The workflow includes **modeling, control design, simulation, hardware-in-the-loop (HIL) simulation**, and deployment. The I2oT platform uses a high-level server with an interactive website for supervisory control over a wireless LAN, and a low-level layer of **IoT-enabled embedded hardware** with decentralized **PI controllers** tuned using a **genetic algorithm**. Controllers were first simulated in Simulink with a nonlinear QTP model, then deployed for real-time experiments. Results confirmed that the system achieved target performance within acceptable time-domain specifications.
+The resulting system combined supervisory control over a wireless network with decentralized PI control and demonstrated practical performance on a laboratory-scale testbed.
 
 <img src="/images/publications/beng_thesis.jpg" alt="BEng Thesis Abstract" width="600" style="border-radius: 8px;" />
-

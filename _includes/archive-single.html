@@ -58,12 +58,24 @@
       <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
 
-    {% if post.citation or post.paperurl or post.slidesurl or post.bibtexurl %}
+    {% if post.award %}
+      <p><strong>Award:</strong> {{ post.award }}</p>
+    {% endif %}
+
+    {% if post.citation %}
+      <p>{{ post.citation }}</p>
+    {% endif %}
+
+    {% if post.paperurl or post.doi or post.preprinturl or post.codeurl or post.videourl or post.slidesurl or post.posterurl or post.bibtexurl %}
       <p>
-        {% if post.citation %} {{ post.citation }}<br>{% endif %}
-        {% if post.paperurl %}<a href="{{ post.paperurl }}">Download Paper</a>{% if post.slidesurl or post.bibtexurl %} | {% endif %}{% endif %}
-        {% if post.slidesurl %}<a href="{{ post.slidesurl }}">Download Slides</a>{% if post.bibtexurl %} | {% endif %}{% endif %}
-        {% if post.bibtexurl %}<a href="{{ post.bibtexurl }}">Download Bibtex</a>{% endif %}
+        {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
+        {% if post.doi %} <a href="https://doi.org/{{ post.doi }}">DOI</a>{% endif %}
+        {% if post.preprinturl %} <a href="{{ post.preprinturl }}">Preprint</a>{% endif %}
+        {% if post.codeurl %} <a href="{{ post.codeurl }}">Code</a>{% endif %}
+        {% if post.videourl %} <a href="{{ post.videourl }}">Video</a>{% endif %}
+        {% if post.slidesurl %} <a href="{{ post.slidesurl }}">Slides</a>{% endif %}
+        {% if post.posterurl %} <a href="{{ post.posterurl }}">Poster</a>{% endif %}
+        {% if post.bibtexurl %} <a href="{{ post.bibtexurl }}">BibTeX</a>{% endif %}
       </p>
     {% endif %}
     

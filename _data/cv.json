@@ -1,152 +1,318 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Abdulrahman Hamdy Ahmad",
+    "label": "Ph.D. Candidate in Computer Science (AI and Autonomous Vehicles)",
+    "email": "abdulrahman_hamdy@ieee.org",
+    "phone": "+971 545259849",
+    "website": "https://abdohamdy7.github.io",
+    "summary": "Ph.D. candidate at Khalifa University specializing in autonomous driving, intelligent transportation systems, motion planning under uncertainty, online optimization, and data-driven perception.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Abu Dhabi",
+      "countryCode": "AE",
+      "region": "Abu Dhabi"
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=-yqOHxIAAAAJ&hl=en"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0000-0002-1067-9745"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "abdohamdy7",
+        "url": "https://github.com/abdohamdy7"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "abdurrahmanhamdy",
+        "url": "https://www.linkedin.com/in/abdurrahmanhamdy"
+      },
+      {
+        "network": "Scopus",
+        "username": "58278769900",
+        "url": "https://www.scopus.com/authid/detail.uri?authorId=58278769900"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Khalifa University",
+      "position": "Graduate Research and Teaching Assistant",
+      "website": "https://www.ku.ac.ae",
+      "startDate": "2021",
+      "endDate": "present",
+      "summary": "Researcher in the Operations Research Lab and Autonomous Vehicles Lab.",
+      "highlights": [
+        "Worked on autonomous driving, intelligent transportation systems, emergency-vehicle prioritization, and full-stack autonomy development.",
+        "Assisted in teaching programming, data science, algorithms, and robotics courses.",
+        "Co-advised undergraduate senior design work in autonomous mobile robotics."
+      ]
+    },
+    {
+      "company": "Minya University",
+      "position": "Graduate Research and Teaching Assistant",
+      "website": "https://mu.edu.eg",
+      "startDate": "2019",
+      "endDate": "2020",
+      "summary": "Research in formal methods for mobile robots, symbolic control, and hybrid systems.",
+      "highlights": [
+        "Assisted in teaching mathematics, control, and programming courses.",
+        "Co-advised undergraduate senior design teams on IoT-based projects."
+      ]
+    },
+    {
+      "company": "ElManara Academy and IGeek Academy",
+      "position": "Programming Instructor",
+      "website": "",
+      "startDate": "2018",
+      "endDate": "2021",
+      "summary": "Designed and delivered programming and robotics courses for undergraduate students and professionals.",
+      "highlights": [
+        "Taught C, C++, C#, desktop applications, mobile robotics, and Arduino programming."
+      ]
+    },
+    {
+      "company": "Egyptian Army",
+      "position": "Reserved Officer",
+      "website": "",
+      "startDate": "2017",
+      "endDate": "2019",
+      "summary": "Participated in software engineering and embedded-systems development projects in addition to military duties.",
+      "highlights": [
+        "Contributed to CRM desktop software and equipment-control interfaces."
+      ]
+    },
+    {
+      "company": "Alfagr Advanced Systems",
+      "position": "Embedded Systems Engineer Intern",
+      "website": "",
+      "startDate": "2015",
+      "endDate": "2015",
+      "summary": "Contributed to embedded systems development and RTOS integration.",
+      "highlights": [
+        "Worked on firmware, technical documentation, and Android application support."
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "institution": "Khalifa University",
+      "area": "Ph.D. in Computer Science",
+      "studyType": "Full-time",
+      "startDate": "2023",
+      "endDate": "2026",
+      "gpa": "3.75/4.0",
+      "courses": [
+        "Thesis: Online risk-bounded motion planning for autonomous driving under uncertainty"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "institution": "Khalifa University",
+      "area": "M.Sc. in Electrical Engineering and Computer Science",
+      "studyType": "Full-time",
+      "startDate": "2021",
+      "endDate": "2022",
+      "gpa": "4.0/4.0",
+      "courses": [
+        "Thesis: Enhancing Internet of Things strategies for autonomous electric vehicles with existing transportation infrastructure and road users"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "institution": "Minya University",
+      "area": "B.Eng. in Computers and Systems Engineering",
+      "studyType": "Full-time",
+      "startDate": "2012",
+      "endDate": "2016",
+      "gpa": "3.2/4.0",
+      "courses": [
+        "Graduation project in industrial Internet-of-Things control of a lab-scale process"
+      ]
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
+  "skills": [
+    {
+      "name": "Research",
+      "level": "",
+      "keywords": [
+        "Risk-aware motion planning",
+        "Autonomous driving",
+        "Intelligent transportation systems",
+        "Online optimization",
+        "Reinforcement learning",
+        "Trajectory prediction"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": [
+        "Python",
+        "C++",
+        "C#",
+        "MATLAB",
+        "LaTeX"
+      ]
+    },
+    {
+      "name": "Robotics and Simulation",
+      "level": "",
+      "keywords": [
+        "ROS 2",
+        "NAV2",
+        "CARLA",
+        "RViz2",
+        "Autoware",
+        "CommonRoad",
+        "RoadRunner",
+        "PTV Vissim",
+        "SUMO"
+      ]
+    },
+    {
+      "name": "Tools",
+      "level": "",
+      "keywords": [
+        "Linux",
+        "Docker",
+        "Jupyter",
+        "VS Code",
+        "Git",
+        "GitHub"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Arabic",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Research Interests",
+      "keywords": [
+        "Algorithm design",
+        "Optimization",
+        "Risk-aware motion planning",
+        "Autonomous vehicles",
+        "Traffic management",
+        "Vision-language models"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Dr. Majid Khonji",
+      "reference": "Assistant Professor of Computer Science, Khalifa University. Ph.D. advisor."
+    },
+    {
+      "name": "Prof. Young-Ji Byon",
+      "reference": "Professor of Civil Engineering, University of Missouri-St. Louis. M.Sc. advisor."
+    },
+    {
+      "name": "Prof. Ahmad Mahmoud",
+      "reference": "Chair of Computers and Systems Engineering Department, Minya University."
+    }
+  ],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Trajectory Prediction for Autonomous Driving: Progress, Limitations, and Future Directions",
+      "publisher": "Information Fusion",
+      "releaseDate": "2026-01-01",
+      "website": "https://doi.org/10.1016/j.inffus.2025.103588",
+      "summary": "Survey article on trajectory prediction for autonomous driving."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Multiple Intelligent Control Strategies for Travel-Time Reduction of Connected Emergency Vehicles",
+      "publisher": "IEEE Transactions on Intelligent Transportation Systems",
+      "releaseDate": "2025-01-01",
+      "website": "https://doi.org/10.1109/TITS.2024.3484771",
+      "summary": "Journal article on connected emergency-vehicle prioritization."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "EMT: A Visual Multi-Task Benchmark Dataset for Autonomous Driving",
+      "publisher": "arXiv",
+      "releaseDate": "2025-02-01",
+      "website": "https://arxiv.org/abs/2502.19260",
+      "summary": "Benchmark dataset for multi-task autonomous-driving research."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Online Risk-Bounded Graph-Based Local Planning for Autonomous Driving with Theoretical Guarantees",
+      "publisher": "ICRA 2025",
+      "releaseDate": "2025-07-01",
+      "website": "https://doi.org/10.1109/ICRA55743.2025.11128187",
+      "summary": "Conference paper on online risk-bounded local planning for autonomous driving."
+    },
+    {
+      "name": "Graph-Based Local Planning with Spatiotemporal Risk Assessment for Risk-Bounded and Prediction-Aware Autonomous Driving",
+      "publisher": "ICARCV 2024",
+      "releaseDate": "2025-01-09",
+      "website": "https://doi.org/10.1109/ICARCV63323.2024.10821596",
+      "summary": "Conference paper on risk-bounded planning with spatiotemporal risk assessment."
+    },
+    {
+      "name": "Reinforcement Learning-Based Optimal Control Design for Active Suspension Systems",
+      "publisher": "ASET 2024",
+      "releaseDate": "2024-01-01",
+      "website": "https://doi.org/10.1109/ASET60340.2024.10708702",
+      "summary": "Conference paper on reinforcement learning for active suspension control."
+    },
+    {
+      "name": "Eco-Driving Framework for Autonomous Vehicles at Signalized Intersections in Mixed-Traffic Environment",
+      "publisher": "IEEE Access",
+      "releaseDate": "2024-04-15",
+      "website": "https://doi.org/10.1109/ACCESS.2024.3415495",
+      "summary": "Journal article on eco-driving for autonomous vehicles in mixed traffic."
+    },
+    {
+      "name": "A Machine Learning Approach for Detecting Unauthorized Drone Operators",
+      "publisher": "ASET 2023",
+      "releaseDate": "2023-01-01",
+      "website": "https://doi.org/10.1109/ASET56582.2023.10180485",
+      "summary": "Conference paper on machine-learning-based drone operator detection."
+    },
+    {
+      "name": "Hybrid Controller for a Software-Defined Architecture of Industrial Internet Lab-Scale Process",
+      "publisher": "ICCES 2017",
+      "releaseDate": "2017-12-19",
+      "website": "https://doi.org/10.1109/ICCES.2017.8275316",
+      "summary": "Conference paper on software-defined industrial Internet control architecture."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
+  "presentations": [],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "course": "Python Programming, MATLAB Programming, Data Analytics, Data Science with AI",
+      "institution": "Khalifa University",
+      "date": "2021-01-01",
+      "role": "Teaching assistant",
+      "description": "Contributed to curriculum delivery, oral exams, quizzes, and project evaluation."
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "Data Structures, Algorithm Design and Analysis, Motion Planning Algorithms for Robotics",
+      "institution": "Khalifa University",
+      "date": "2023-01-01",
+      "role": "Teaching assistant",
+      "description": "Supported algorithmic and robotics courses, including ROS 2 and TurtleBot3-based instruction."
+    },
+    {
+      "course": "Discrete Mathematics, Signals and Systems, Intelligent Control, C Programming, Computer-Controlled Systems",
+      "institution": "Minya University",
+      "date": "2019-01-01",
+      "role": "Teaching assistant",
+      "description": "Assisted with lectures, assessments, and student projects."
     }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "portfolio": []
 }

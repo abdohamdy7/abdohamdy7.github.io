@@ -5,24 +5,25 @@ category: conference
 permalink: /publication/2025-01-09-graph-risk-planning
 excerpt: "A risk-aware graph-based local planner for autonomous driving that integrates spatiotemporal risk assessment and constrained shortest-path optimization."
 date: 2025-01-09
-paperurl: 'https://ieeexplore.ieee.org/document/10746244'
+paperurl: 'https://doi.org/10.1109/ICARCV63323.2024.10821596'
+doi: '10.1109/ICARCV63323.2024.10821596'
+videourl: '/assets/videos/graph_based_local_planing/video_demo.mp4'
 venue: '2024 18th International Conference on Control, Automation, Robotics and Vision (ICARCV), pp. 1–8'
-citation: '<b>Abdulrahman Ahmad</b>, Majid Khonji, Ameena Al-Sumaiti, Jorge Dias, Khaled Elbassioni. (2025). "Graph-Based Local Planning with Spatiotemporal Risk Assessment For Risk-Bounded and Prediction-Aware Autonomous Driving." <i>2024 18th International Conference on Control, Automation, Robotics and Vision (ICARCV)</i>, IEEE, pp. 1–8.'
-rank: B  # Update based on conference ranking if known
+citation: '<b>Abdulrahman Ahmad</b>, M. Khonji, A. Al-Sumaiti, J. Dias, and K. Elbassioni. (2025). "Graph-Based Local Planning with Spatiotemporal Risk Assessment for Risk-Bounded and Prediction-Aware Autonomous Driving." <i>ICARCV 2024</i>, pp. 485-492.'
 graphical_abstract: /images/publications/graph-risk-planning.jpg
 ---
 
-This paper addresses the challenge of risk-bounded motion planning for autonomous driving in dynamic environments. Ensuring continuous, real-time decision-making in nonconvex settings is difficult due to static and dynamic obstacles, traffic constraints, and user-specific risk tolerances.
+This paper studies risk-bounded motion planning for autonomous driving in dynamic environments with both static and moving obstacles.
 
-We propose a **graph-based local planning method** using a lattice graph that respects vehicle curvature constraints. Trajectory planning is formulated as an integer linear program with a custom **risk-bounded and prediction-aware shortest path** algorithm.
+The proposed method uses a lattice-based local planner with spatiotemporal risk assessment and a constrained shortest-path formulation that respects vehicle-curvature constraints.
 
-At the core of our system is a **spatiotemporal risk assessment module** that conservatively evaluates collision risk with both static and moving objects. The planner successfully operates in urban driving scenarios while honoring safety margins and driving preferences.
+The system is designed for urban driving scenarios and explicitly accounts for safety margins, prediction uncertainty, and user-defined risk preferences.
 <img src="/images/publications/graph-risk-planning-system.jpg" alt="Graphical Abstract" width="800" style="border-radius: 8px;" />
 
 <img src="/images/publications/graph-risk-planning.jpg" alt="Graphical Abstract2" width="400" style="border-radius: 8px;" />
 ---
 
-### 🎥 Demo Video
+### Demo Video
 
 <div style="position: relative; width: 100%; padding-top: 56.25%; margin-top: 1em; border-radius: 8px; overflow: hidden;">
   <video controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">

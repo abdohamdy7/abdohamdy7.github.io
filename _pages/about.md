@@ -1,74 +1,58 @@
 ---
 permalink: /
-title: "About Me"
+title: "Abdulrahman Hamdy Ahmad"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-👋 Hello! I'm **Abdulrahman Ahmad**, a PhD researcher passionate about autonomous vehicles, intelligent transportation systems, and decision-making under uncertainty.
+Ph.D. Candidate in Computer Science (AI and Autonomous Vehicles) at Khalifa University, Abu Dhabi. My research focuses on autonomous driving, intelligent transportation systems, motion planning under uncertainty, online optimization, and data-driven perception for real-world robotic systems.
 
-🚗 I work at the intersection of **Optimization**, **Algorithm Design**, **Machine Learning**, **Vision-language Models**, and **Motion Planning** for real-world applications in **Robotics** and **Autonomous Driving**.
+<p>
+  <a class="btn btn--primary" href="/files/cv.pdf">Download CV</a>
+  <a class="btn btn--inverse" href="/publications/">View Publications</a>
+  <a class="btn btn--inverse" href="https://scholar.google.com/citations?user=-yqOHxIAAAAJ&hl=en">Google Scholar</a>
+  <a class="btn btn--inverse" href="mailto:abdulrahman_hamdy@ieee.org">Email</a>
+</p>
 
-I’m proudly Muslim and from **Egypt**  — the Cradle of civilization 𓂀𓋹𓃠☥𓅓 — and now thriving in the UAE with a shiny **Golden Visa** ✨ in my pocket!
+## Research Areas
 
----
+- Risk-aware and energy-efficient motion planning and control for autonomous vehicles in mixed traffic.
+- Intelligent transportation systems, traffic-signal optimization, and emergency-vehicle prioritization.
+- Reinforcement learning and interaction-aware optimal control for challenging autonomous systems.
+- Trajectory prediction, dataset creation, and data-driven scene understanding for autonomous driving.
 
-## 🎓 Academic Journey
+## Current Position
 
-- 🧠 **PhD in Electrical Engineering and Computer Science**  
-  Khalifa University of Science and Technology, Abu-Dhabi, UAE, 2023 – Present  
-  *Focusing on online risk-aware motion planning for autonomous vehicles.*  
-  Working under the supervision of [Dr. Majid Khonji](https://www.ku.ac.ae/college-people/majid-khonji) 👨‍🏫 in the [Autonomous Vehicles Lab](https://avlab.io/) 🚗.
+- Final-year Ph.D. candidate in Computer Science at Khalifa University, expected to graduate in December 2026.
+- Graduate Research and Teaching Assistant at Khalifa University since 2021.
+- Researcher in the Autonomous Vehicles Lab and former researcher in the Operations Research Lab.
+- Dissertation topic: online risk-bounded motion planning for autonomous driving under uncertainty.
 
-- 📚 **MSc in Electrical Engineering and Computer Science**  
-  Khalifa University of Science and Technology, Abu-Dhabi, UAE, 2021 – 2022  
-  *Thesis on eco-driving and control strategies for connected autonomous vehicles at signalized intersections.*  
-  Supervised by [Dr. Ameena Al-Sumaiti](https://www.ku.ac.ae/college-people/ameena-al-sumaiti) 👩‍🏫 in the [Smart Operation Research Lab](https://www.ku.ac.ae/facilities/the-smart-operation-lab) 📈.  
-  Graduated with a **CGPA of 4.0 / 4.0** 🏅 and from thesis, published **Two journal papers**, ranked in the **top 2% and top 8%**.
+## Selected Highlights
 
-- 🎓 **BEng in Computers and Systems Engineering**  
-  Minya University, Faculty of Engineering, Minya, Egypt  
-  Graduated with **Very Good with Honors** 🌟 from the **Department of Computers and Systems Engineering**.
+- Ph.D. coursework completed with a CGPA of 3.75/4.0 at Khalifa University.
+- M.Sc. in Electrical Engineering and Computer Science from Khalifa University with a CGPA of 4.0/4.0.
+- Elite Young Researcher, Khalifa University, 2023-2024.
+- Recognized as a Future Expert on the UAE Research Map national platform in 2026.
+- Reviewer for IEEE Transactions on Intelligent Transportation Systems, IEEE Transactions on Industry Applications, IEEE Access, ICRA, IROS, and ICARCV.
 
----
+## Selected Publications
 
-## 🔬 Research Interests
+1. [Online Risk-Bounded Graph-Based Local Planning for Autonomous Driving with Theoretical Guarantees](/publication/2025-07-01-online-risk-bounded-local-planning/)
+2. [Multiple Intelligent Control Strategies for Travel-Time Reduction of Connected Emergency Vehicles](/publication/2025-01-01-multiple-intelligent-control/)
+3. [Trajectory Prediction for Autonomous Driving: Progress, Limitations, and Future Directions](/publication/2026-01-01-trajectory-prediction/)
+4. [Eco-Driving Framework for Autonomous Vehicles at Signalized Intersections in Mixed-Traffic Environment](/publication/2024-04-15-eco-driving-access/)
 
-💡 My core research focuses on:
+## Research Platforms
 
-- 🚗 Autonomous Driving & Motion Planning  
-- 📊 Competitive Online Algorithms  
-- ⏱️ Real-Time Decision Making Under Uncertainty
+- CARLA, ROS 2, NAV2, RViz2, Foxglove, Autoware, CommonRoad, RoadRunner, MATLAB/Simulink, PTV Vissim, and SUMO.
+- Programming and research tooling centered on Python, C++, C#, MATLAB, Linux, Docker, Jupyter, and Git.
 
----
-<!-- 
-## 🛠️ Tools & Tech I Work With
+## Contact
 
-- 🧠 Machine Learning: Python, PyTorch, TensorFlow  
-- 🛣️ ROS2, CARLA Simulator  
-- 📹 OpenCV, Detectron2, CLIP, BLIP  
-- 📈 Optimization: many solvers such as Gurobi, ....etc  
-- ☁️ Coding: GitHub, VS Code -->
-
----
-
-## ✨ Fun Facts
-
-- ☕ Coffee fuels most of my debugging sessions.
-- 🌍 Always excited to collaborate across disciplines. "I like teamwork".
-- 🎮 I Love Gaming: FIFA, PES, and Chess
-
----
-
-## 📬 Let’s Connect!
-
-Feel free to check out my [Google Scholar](https://scholar.google.com/citations?user=-yqOHxIAAAAJ&hl=en), [GitHub](https://github.com/abdohamdy7), or [LinkedIn](https://www.linkedin.com/in/abdurrahmanhamdy).
-
-📫 You can also reach me at: **abdulrahman_hamdy@ieee.org**
-
----
-
-> "The best way to predict the future is to invent it." – Alan Kay
-
+- Email: [abdulrahman_hamdy@ieee.org](mailto:abdulrahman_hamdy@ieee.org)
+- Website: [abdohamdy7.github.io](https://abdohamdy7.github.io)
+- Google Scholar: [profile](https://scholar.google.com/citations?user=-yqOHxIAAAAJ&hl=en)
+- ORCID: [0000-0002-1067-9745](https://orcid.org/0000-0002-1067-9745)
