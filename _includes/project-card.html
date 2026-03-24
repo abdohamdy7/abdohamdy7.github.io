@@ -1,0 +1,21 @@
+{% assign project = include.project %}
+
+<article class="project-card">
+  <div class="project-card__header">
+    <div class="project-card__badges">
+      <span class="pub-badge pub-badge--category">{{ project.status | default: "Active" }}</span>
+      {% for topic in project.project_topics limit: 2 %}
+        <span class="pub-badge">{{ topic }}</span>
+      {% endfor %}
+    </div>
+    <h3 class="project-card__title"><a href="{{ project.url }}">{{ project.title }}</a></h3>
+  </div>
+
+  <p class="project-card__excerpt">{{ project.excerpt }}</p>
+
+  {% if project.project_topics %}
+    <p class="project-card__meta">{{ project.project_topics | join: " · " }}</p>
+  {% endif %}
+
+  <p class="project-card__action"><a href="{{ project.url }}">View project</a></p>
+</article>

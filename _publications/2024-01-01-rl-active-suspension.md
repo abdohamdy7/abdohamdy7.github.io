@@ -2,12 +2,16 @@
 title: "Reinforcement Learning-Based Optimal Control Design for Active Suspension Systems"
 collection: publications
 category: conference
+topics:
+  - learning-control
 permalink: /publication/2024-01-01-rl-active-suspension
 excerpt: "Reinforcement learning applied to optimal control design for active suspension systems."
 date: 2024-10-01
 venue: "2024 Advances in Science and Engineering Technology International Conferences (ASET), pp. 1-6"
 paperurl: "https://ieeexplore.ieee.org/abstract/document/10708702/"
 doi: "10.1109/ASET60340.2024.10708702"
+graphical_abstract: /images/publications/rl-active-suspension.png
+show_graphical_abstract: true
 citation: "<b>Abdulrahman Ahmad</b>, Muaz Al Radi, Abdelfatah Ahmad, and Abderrahmene Boudiaf. (2024). \"Reinforcement Learning-Based Optimal Control Design for Active Suspension Systems.\" <i>2024 Advances in Science and Engineering Technology International Conferences (ASET)</i>."
 ---
 

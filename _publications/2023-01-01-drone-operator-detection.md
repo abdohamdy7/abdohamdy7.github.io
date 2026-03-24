@@ -2,6 +2,8 @@
 title: "A Machine Learning Approach for Detecting Unauthorized Drone Operators"
 collection: publications
 category: conference
+topics:
+  - learning-control
 permalink: /publication/2023-01-01-drone-operator-detection
 excerpt: "A machine-learning approach for detecting unauthorized drone operators."
 date: 2023-02-20

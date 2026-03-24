@@ -45,6 +45,12 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.collection == 'publications' and page.graphical_abstract and page.show_graphical_abstract %}
+          <figure class="publication-figure">
+            <img src="{{ page.graphical_abstract | replace: ' ', '%20' }}" alt="Graphical abstract for {{ page.title }}">
+          </figure>
+        {% endif %}
+
         {{ content }}
 
         {% if page.award %}

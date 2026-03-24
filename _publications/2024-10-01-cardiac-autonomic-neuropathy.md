@@ -2,6 +2,8 @@
 title: "Machine Learning-Based Multivariate Classification of Cardiac Autonomic Neuropathy Via Imbalanced ECG Recordings"
 collection: publications
 category: conference
+topics:
+  - learning-control
 permalink: /publication/2024-10-01-cardiac-autonomic-neuropathy
 excerpt: "Machine-learning-based multivariate classification of cardiac autonomic neuropathy from imbalanced ECG recordings."
 date: 2024-10-01

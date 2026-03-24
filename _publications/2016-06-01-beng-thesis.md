@@ -2,6 +2,9 @@
 title: "Industrial Internet of Things for Automation of a Lab-scale Benchmark Process"
 collection: publications
 category: thesis
+topics:
+  - industrial-iot
+  - learning-control
 permalink: /publication/2016-06-01-beng-thesis
 excerpt: "Bachelor thesis project focused on applying Industrial IoT (I2oT) to a lab-scale control system using real-time remote monitoring and genetic algorithm-tuned PI controllers."
 date: 2017-01-01

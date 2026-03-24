@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 minimal_mistakes_skin    : "mint"
-title                    : "Abdulrahman Hamdy Ahmad"
+title                    : "Abdulrahman Ahmad"
 title_separator          : "-"
-name                     : &name "Abdulrahman Hamdy Ahmad"
+name                     : &name "Abdulrahman Ahmad"
 description              : &description "Ph.D. Candidate in Computer Science working on autonomous driving, intelligent transportation systems, and motion planning under uncertainty."
 url                      : https://abdohamdy7.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,7 +23,7 @@ repository               : "abdohamdy7/abdohamdy7.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Abdulrahman Hamdy Ahmad"
+  name             : "Abdulrahman Ahmad"
   pronouns         : "he/him"
   bio              : "Ph.D. Candidate in Computer Science at Khalifa University working on autonomous driving, intelligent transportation systems, and risk-aware motion planning."
   location         : "Abu Dhabi, United Arab Emirates"
@@ -74,6 +74,7 @@ author:
   wikipedia        : # Username
   xing             : # Username
   youtube          : # Username
+  youtube_url      : "https://www.youtube.com/channel/UCvh8B0Gy13mpII_TmeCymXA"
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
@@ -142,13 +143,14 @@ og_image                 : "/images/profile.jpg"
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : "Person"
-  name                   : "Abdulrahman Hamdy Ahmad"
+  name                   : "Abdulrahman Ahmad"
   links:
     - "https://abdohamdy7.github.io"
     - "https://scholar.google.com/citations?user=-yqOHxIAAAAJ&hl=en"
     - "https://orcid.org/0000-0002-1067-9745"
     - "https://github.com/abdohamdy7"
     - "https://www.linkedin.com/in/abdurrahmanhamdy"
+    - "https://www.youtube.com/channel/UCvh8B0Gy13mpII_TmeCymXA"
     - "https://www.scopus.com/authid/detail.uri?authorId=58278769900"
 
 

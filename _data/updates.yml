@@ -1,0 +1,41 @@
+- date: 2026-03-17
+  type: "Conference Paper"
+  title: "Priv-DATA presented for privacy-aware autonomous-vehicle dataset release"
+  summary: "Introduced Priv-DATA, a privacy-aware dataset anonymization tool designed for autonomous-vehicle research workflows and public data release."
+  link: "/publication/2026-03-17-priv-data/"
+
+- date: 2026-03-16
+  type: "Preprint"
+  title: "Self-supervised plankton classification preprint released"
+  summary: "Published a new preprint on self-supervised plankton classification using DINO features and gradient-based loss re-weighting."
+  link: "/publication/2026-03-16-self-supervised-plankton-classification/"
+
+- date: 2025-08-22
+  type: "Journal Article"
+  title: "Trajectory-prediction survey published in Information Fusion"
+  summary: "Published a survey on trajectory prediction for autonomous driving, covering progress, open limitations, and future research directions."
+  link: "/publication/2026-01-01-trajectory-prediction/"
+
+- date: 2025-07-01
+  type: "Conference Paper"
+  title: "ICRA paper on online risk-bounded local planning"
+  summary: "Presented an online graph-based local planner for autonomous driving with explicit risk bounds and theoretical guarantees."
+  link: "/publication/2025-07-01-online-risk-bounded-local-planning/"
+
+- date: 2025-05-23
+  type: "Dataset"
+  title: "EMT benchmark dataset released on arXiv"
+  summary: "Released EMT, a visual multi-task benchmark dataset for autonomous driving in the Arab Gulf region."
+  link: "/publication/2025-02-01-emt-benchmark-dataset/"
+
+- date: 2024-11-06
+  type: "Journal Article"
+  title: "IEEE T-ITS article on connected emergency vehicles published"
+  summary: "Published intelligent control strategies for reducing connected emergency-vehicle travel time through signal preemption and dynamic path planning."
+  link: "/publication/2025-01-01-multiple-intelligent-control/"
+
+- date: 2024-06-17
+  type: "Journal Article"
+  title: "Eco-driving framework published in IEEE Access"
+  summary: "Published an eco-driving framework for autonomous vehicles operating at signalized intersections in mixed traffic."
+  link: "/publication/2024-04-15-eco-driving-access/"

@@ -6,41 +6,143 @@ author_profile: true
 ---
 
 {% include base_path %}
-{% assign journal_pubs = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
-{% assign conference_pubs = site.publications | where: "category", "conference" | sort: "date" | reverse %}
-{% assign thesis_pubs = site.publications | where: "category", "thesis" | sort: "date" | reverse %}
+{% assign publications = site.publications | sort: "date" | reverse %}
+{% assign journal_pubs = site.publications | where: "category", "manuscripts" %}
+{% assign conference_pubs = site.publications | where: "category", "conference" %}
+{% assign thesis_pubs = site.publications | where: "category", "thesis" %}
 
-My publications cover autonomous driving, intelligent transportation systems, optimization, motion planning under uncertainty, and control for autonomous systems.
+<section class="publications-intro">
+  <p class="publications-intro__lead">My publications span autonomous driving, intelligent transportation systems, motion planning under uncertainty, learning-based control, and dataset-driven research infrastructure.</p>
 
-<p>
-  <strong>{{ journal_pubs.size }}</strong> journal articles,
-  <strong>{{ conference_pubs.size }}</strong> conference papers,
-  <strong>{{ thesis_pubs.size }}</strong> theses.
-</p>
+  <div class="publication-summary-grid">
+    <div class="home-stat">
+      <span class="home-stat__value">{{ publications.size }}</span>
+      <span class="home-stat__label">Total Publications</span>
+    </div>
+    <div class="home-stat">
+      <span class="home-stat__value">{{ journal_pubs.size }}</span>
+      <span class="home-stat__label">Journal Articles</span>
+    </div>
+    <div class="home-stat">
+      <span class="home-stat__value">{{ conference_pubs.size }}</span>
+      <span class="home-stat__label">Conference Papers</span>
+    </div>
+    <div class="home-stat">
+      <span class="home-stat__value">{{ thesis_pubs.size }}</span>
+      <span class="home-stat__label">Theses</span>
+    </div>
+  </div>
 
-{% if site.author.googlescholar or site.author.scopus or site.author.orcid %}
-<p>
-  Additional profiles:
-  {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}">Google Scholar</a>{% endif %}
-  {% if site.author.scopus %} | <a href="{{ site.author.scopus }}">Scopus</a>{% endif %}
-  {% if site.author.orcid %} | <a href="{{ site.author.orcid }}">ORCID</a>{% endif %}
-</p>
-{% endif %}
+  {% if site.author.googlescholar or site.author.scopus or site.author.orcid %}
+    <p class="publications-intro__profiles">
+      Academic profiles:
+      {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}">Google Scholar</a>{% endif %}
+      {% if site.author.scopus %} | <a href="{{ site.author.scopus }}">Scopus</a>{% endif %}
+      {% if site.author.orcid %} | <a href="{{ site.author.orcid }}">ORCID</a>{% endif %}
+    </p>
+  {% endif %}
+</section>
 
-## Journal Articles
+<section class="publication-controls" aria-label="Publication filters">
+  <div class="publication-filter-group">
+    <span class="publication-filter-group__label">Type</span>
+    <div class="publication-filter-buttons" data-filter-group="category">
+      <button class="publication-filter is-active" type="button" data-filter-value="all">All</button>
+      <button class="publication-filter" type="button" data-filter-value="manuscripts">Journal Articles</button>
+      <button class="publication-filter" type="button" data-filter-value="conference">Conference Papers</button>
+      <button class="publication-filter" type="button" data-filter-value="thesis">Theses</button>
+    </div>
+  </div>
 
-{% for post in journal_pubs %}
-  {% include archive-single.html %}
-{% endfor %}
+  <div class="publication-filter-group">
+    <span class="publication-filter-group__label">Theme</span>
+    <div class="publication-filter-buttons" data-filter-group="topic">
+      <button class="publication-filter is-active" type="button" data-filter-value="all">All Themes</button>
+      <button class="publication-filter" type="button" data-filter-value="autonomous-driving">Autonomous Driving</button>
+      <button class="publication-filter" type="button" data-filter-value="intelligent-transportation">Transportation Systems</button>
+      <button class="publication-filter" type="button" data-filter-value="motion-planning">Motion Planning</button>
+      <button class="publication-filter" type="button" data-filter-value="learning-control">Learning and Control</button>
+      <button class="publication-filter" type="button" data-filter-value="datasets-perception">Data and Perception</button>
+      <button class="publication-filter" type="button" data-filter-value="industrial-iot">Industrial IoT</button>
+    </div>
+  </div>
 
-## Conference Papers
+  <label class="publication-search">
+    <span class="publication-filter-group__label">Search</span>
+    <input type="search" data-publication-search placeholder="Search by title, venue, or keyword">
+  </label>
+</section>
 
-{% for post in conference_pubs %}
-  {% include archive-single.html %}
-{% endfor %}
+<p class="publication-results" data-publication-results></p>
 
-## Theses
+<div class="publication-grid" data-publication-grid>
+  {% for post in publications %}
+    {% include publication-card.html post=post %}
+  {% endfor %}
+</div>
 
-{% for post in thesis_pubs %}
-  {% include archive-single.html %}
-{% endfor %}
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const grid = document.querySelector("[data-publication-grid]");
+    if (!grid) return;
+
+    const cards = Array.from(grid.querySelectorAll(".publication-card"));
+    const buttons = Array.from(document.querySelectorAll(".publication-filter"));
+    const searchInput = document.querySelector("[data-publication-search]");
+    const results = document.querySelector("[data-publication-results]");
+
+    const state = {
+      category: "all",
+      topic: "all",
+      query: ""
+    };
+
+    function updateButtons(group, value) {
+      buttons
+        .filter((button) => button.parentElement.dataset.filterGroup === group)
+        .forEach((button) => {
+          button.classList.toggle("is-active", button.dataset.filterValue === value);
+        });
+    }
+
+    function applyFilters() {
+      let visibleCount = 0;
+
+      cards.forEach((card) => {
+        const matchesCategory =
+          state.category === "all" || card.dataset.category === state.category;
+        const matchesTopic =
+          state.topic === "all" || card.dataset.topics.includes(state.topic);
+        const matchesQuery =
+          !state.query || card.dataset.search.includes(state.query);
+
+        const visible = matchesCategory && matchesTopic && matchesQuery;
+        card.hidden = !visible;
+        if (visible) visibleCount += 1;
+      });
+
+      if (results) {
+        results.textContent = "Showing " + visibleCount + " of {{ publications.size }} publications";
+      }
+    }
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", function () {
+        const group = button.parentElement.dataset.filterGroup;
+        const value = button.dataset.filterValue;
+        state[group] = value;
+        updateButtons(group, value);
+        applyFilters();
+      });
+    });
+
+    if (searchInput) {
+      searchInput.addEventListener("input", function (event) {
+        state.query = event.target.value.trim().toLowerCase();
+        applyFilters();
+      });
+    }
+
+    applyFilters();
+  });
+</script>

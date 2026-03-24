@@ -2,6 +2,9 @@
 title: "Hybrid controller for a software-defined architecture of industrial internet lab-scale process"
 collection: publications
 category: conference
+topics:
+  - industrial-iot
+  - learning-control
 permalink: /publication/2017-12-19-hybrid-controller-i2ot
 excerpt: "A hybrid controller approach applied to a lab-scale I2oT system."
 date: 2017-12-19

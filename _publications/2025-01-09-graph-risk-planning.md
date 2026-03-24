@@ -2,6 +2,9 @@
 title: "Graph-Based Local Planning with Spatiotemporal Risk Assessment for Risk-Bounded and Prediction-Aware Autonomous Driving"
 collection: publications
 category: conference
+topics:
+  - autonomous-driving
+  - motion-planning
 permalink: /publication/2025-01-09-graph-risk-planning
 excerpt: "A risk-aware graph-based local planner for autonomous driving that integrates spatiotemporal risk assessment and constrained shortest-path optimization."
 date: 2025-01-09

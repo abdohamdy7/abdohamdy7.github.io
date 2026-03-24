@@ -1,0 +1,58 @@
+{% assign post = include.post %}
+{% capture category_label %}{% case post.category %}{% when "manuscripts" %}Journal Article{% when "conference" %}Conference Paper{% when "thesis" %}Thesis{% else %}Publication{% endcase %}{% endcapture %}
+{% assign topic_string = post.topics | join: " " | downcase %}
+{% capture search_blob %}{{ post.title | strip_html }} {{ post.venue | strip_html }} {{ post.excerpt | strip_html }}{% endcapture %}
+
+<article
+  class="publication-card"
+  data-category="{{ post.category }}"
+  data-topics="{{ topic_string }}"
+  data-search="{{ search_blob | downcase | strip_newlines | escape_once }}"
+>
+  <div class="publication-card__media">
+    {% if post.graphical_abstract %}
+      <img src="{{ post.graphical_abstract | replace: ' ', '%20' }}" alt="Thumbnail for {{ post.title }}">
+    {% else %}
+      <div class="publication-card__placeholder">
+        <span>{{ post.date | date: "%Y" }}</span>
+        <strong>{{ category_label }}</strong>
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="publication-card__body">
+    <div class="publication-card__badges">
+      <span class="pub-badge pub-badge--category">{{ category_label }}</span>
+      <span class="pub-badge">{{ post.date | date: "%Y" }}</span>
+      {% if post.scopus_index %}
+        <span class="pub-badge pub-badge--metric">{{ post.scopus_index }}</span>
+      {% endif %}
+      {% for topic in post.topics limit: 3 %}
+        <span class="pub-badge">{{ topic | replace: "-", " " }}</span>
+      {% endfor %}
+    </div>
+
+    <h2 class="publication-card__title">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </h2>
+
+    {% if post.venue %}
+      <p class="publication-card__venue">{{ post.venue }}</p>
+    {% endif %}
+
+    {% if post.excerpt %}
+      <p class="publication-card__excerpt">{{ post.excerpt }}</p>
+    {% endif %}
+
+    <div class="publication-card__links">
+      {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
+      {% if post.doi %}<a href="https://doi.org/{{ post.doi }}">DOI</a>{% endif %}
+      {% if post.preprinturl %}<a href="{{ post.preprinturl }}">Preprint</a>{% endif %}
+      {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
+      {% if post.videourl %}<a href="{{ post.videourl }}">Video</a>{% endif %}
+      {% if post.slidesurl %}<a href="{{ post.slidesurl }}">Slides</a>{% endif %}
+      {% if post.posterurl %}<a href="{{ post.posterurl }}">Poster</a>{% endif %}
+      {% if post.bibtexurl %}<a href="{{ post.bibtexurl }}">BibTeX</a>{% endif %}
+    </div>
+  </div>
+</article>

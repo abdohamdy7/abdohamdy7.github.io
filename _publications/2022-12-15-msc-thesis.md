@@ -2,6 +2,10 @@
 title: "Enhancing Internet of Things (IoT) strategies for autonomous electric vehicles (AEV) with existing transportation infrastructure and road users"
 collection: publications
 category: thesis
+topics:
+  - intelligent-transportation
+  - autonomous-driving
+  - learning-control
 permalink: /publication/2022-12-15-msc-thesis
 excerpt: "Master's thesis focusing on eco-driving, intelligent traffic signal control, and deep learning-based emergency vehicle prioritization for connected autonomous driving in mixed traffic."
 date: 2022-12-01

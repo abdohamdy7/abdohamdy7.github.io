@@ -2,6 +2,9 @@
 title: "EMT: A Visual Multi-Task Benchmark Dataset for Autonomous Driving in the Arab Gulf Region"
 collection: publications
 category: manuscripts
+topics:
+  - autonomous-driving
+  - datasets-perception
 permalink: /publication/2025-02-01-emt-benchmark-dataset
 excerpt: "A visual multi-task benchmark dataset for autonomous driving."
 date: 2025-05-23

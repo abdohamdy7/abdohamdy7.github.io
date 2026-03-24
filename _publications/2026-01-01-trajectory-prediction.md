@@ -2,12 +2,17 @@
 title: "Trajectory prediction for autonomous driving: Progress, limitations, and future directions"
 collection: publications
 category: manuscripts
+topics:
+  - autonomous-driving
+  - datasets-perception
 permalink: /publication/2026-01-01-trajectory-prediction
 excerpt: "A survey of trajectory prediction for autonomous driving, including progress, limitations, and future research directions."
 date: 2025-08-22
 venue: "Information Fusion, p. 103588"
 paperurl: "https://www.sciencedirect.com/science/article/pii/S1566253525006608"
 doi: "10.1016/j.inffus.2025.103588"
+graphical_abstract: /images/publications/trajectory-prediction-survey.png
+show_graphical_abstract: true
 citation: "Nadya Abdel Madjid, <b>Abdulrahman Ahmad</b>, Murad Mebrahtu, Yousef Babaa, Abdelmoamen Nasser, Sumbal Malik, Bilal Hassan, Naoufel Werghi, Jorge Dias, and Majid Khonji. (2025). \"Trajectory prediction for autonomous driving: Progress, limitations, and future directions.\" <i>Information Fusion</i>, p. 103588."
 ---
 
