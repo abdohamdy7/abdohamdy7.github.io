@@ -1,15 +1,15 @@
 ---
-title: "Graph-Based Local Planning with Spatiotemporal Risk Assessment For Risk-Bounded and Prediction-Aware Autonomous Driving"
+title: "Graph-Based Local Planning with Spatiotemporal Risk Assessment for Risk-Bounded and Prediction-Aware Autonomous Driving"
 collection: publications
 category: conference
 permalink: /publication/2025-01-09-graph-risk-planning
 excerpt: "A risk-aware graph-based local planner for autonomous driving that integrates spatiotemporal risk assessment and constrained shortest-path optimization."
 date: 2025-01-09
-paperurl: 'https://doi.org/10.1109/ICARCV63323.2024.10821596'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/10821596/'
 doi: '10.1109/ICARCV63323.2024.10821596'
 videourl: '/assets/videos/graph_based_local_planing/video_demo.mp4'
 venue: '2024 18th International Conference on Control, Automation, Robotics and Vision (ICARCV), pp. 1–8'
-citation: '<b>Abdulrahman Ahmad</b>, M. Khonji, A. Al-Sumaiti, J. Dias, and K. Elbassioni. (2025). "Graph-Based Local Planning with Spatiotemporal Risk Assessment for Risk-Bounded and Prediction-Aware Autonomous Driving." <i>ICARCV 2024</i>, pp. 485-492.'
+citation: '<b>Abdulrahman Ahmad</b>, Majid Khonji, Ameena Al-Sumaiti, Jorge Dias, and Khaled Elbassioni. (2025). "Graph-Based Local Planning with Spatiotemporal Risk Assessment for Risk-Bounded and Prediction-Aware Autonomous Driving." <i>2024 18th International Conference on Control, Automation, Robotics and Vision (ICARCV)</i>, pp. 1-8.'
 graphical_abstract: /images/publications/graph-risk-planning.jpg
 ---
 

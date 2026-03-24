@@ -5,12 +5,12 @@ category: manuscripts
 scopus_index: Top 2%
 permalink: /publication/2025-01-01-multiple-intelligent-control
 excerpt: "A framework integrating signal preemption and dynamic path planning to reduce emergency vehicle delay in connected environments."
-date: 2025-01-01
-venue: 'IEEE Transactions on Intelligent Transportation Systems, vol. 26, no. 1, pp. 337–353'
-paperurl: 'https://doi.org/10.1109/TITS.2024.3484771'
+date: 2024-11-06
+venue: 'IEEE Transactions on Intelligent Transportation Systems, vol. 26, no. 1, pp. 337-353'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/10746244/'
 doi: '10.1109/TITS.2024.3484771'
 videourl: '/assets/videos/multiple_intelligent_control_TITS/tits-video3.mp4'
-citation: '<b>Abdulrahman Ahmad</b>, A. S. Al-Sumaiti, Y.-J. Byon, and K. Alhosani. (2025). "Multiple Intelligent Control Strategies for Travel-Time Reduction of Connected Emergency Vehicles." <i>IEEE Transactions on Intelligent Transportation Systems</i>, 26(1), 337-353.'
+citation: '<b>Abdulrahman Ahmad</b>, Ameena S. Al-Sumaiti, Young-Ji Byon, and Khalifa Alhosani. (2024). "Multiple Intelligent Control Strategies for Travel-Time Reduction of Connected Emergency Vehicles." <i>IEEE Transactions on Intelligent Transportation Systems</i>, 26(1), 337-353.'
 graphical_abstract: /images/publications/multiple-intelligent-control.jpg
 ---
 

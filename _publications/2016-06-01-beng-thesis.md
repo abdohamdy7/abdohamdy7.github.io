@@ -4,9 +4,9 @@ collection: publications
 category: thesis
 permalink: /publication/2016-06-01-beng-thesis
 excerpt: "Bachelor thesis project focused on applying Industrial IoT (I2oT) to a lab-scale control system using real-time remote monitoring and genetic algorithm-tuned PI controllers."
-date: 2016-06-01
-venue: "BEng Thesis, Minya University, Egypt"
-citation: "<b>Abdulrahman Ahmad</b>. (2016). \"Industrial Internet of Things for Automation of a Lab-scale Benchmark Process.\" <i>Bachelor of Engineering Thesis, Minya University</i>."
+date: 2017-01-01
+venue: "Minia University"
+citation: "Abdur-Rahman Hamdy Muhammad, Al-Shaimaa Ahmed Younis, and Eng Mohammed Moness Ali. (2017). \"Industrial Internet of Things for Automation of a Lab-scale Benchmark Process.\" <i>Minia University</i>."
 paperurl: "https://www.researchgate.net/publication/333994626_Industrial_Internet_of_Things_for_Automation_of_a_Lab-scale_Benchmark_Process"
 graphical_abstract: /images/publications/beng_thesis.jpg
 ---

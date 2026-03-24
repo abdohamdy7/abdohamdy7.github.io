@@ -1,15 +1,15 @@
 ---
-title: "Hybrid Controller for a Software-Defined Architecture of Industrial Internet Lab-Scale Process"
+title: "Hybrid controller for a software-defined architecture of industrial internet lab-scale process"
 collection: publications
 category: conference
 permalink: /publication/2017-12-19-hybrid-controller-i2ot
 excerpt: "A hybrid controller approach applied to a lab-scale I2oT system."
 date: 2017-12-19
 venue: '2017 12th International Conference on Computer Engineering and Systems (ICCES), pp. 266–271'
-paperurl: 'https://doi.org/10.1109/ICCES.2017.8275316'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/8275316/'
 doi: '10.1109/ICCES.2017.8275316'
 videourl: '/assets/videos/quadruple_tanks_iot/realtime.mp4'
-citation: 'M. Moness, A. M. Moustafa, <b>Abdulrahman Ahmad</b>, and A.-S. A. Younis. (2017). "Hybrid Controller for a Software-Defined Architecture of Industrial Internet Lab-Scale Process." <i>2017 12th International Conference on Computer Engineering and Systems (ICCES)</i>, pp. 266-271.'
+citation: 'Mohammed Moness, Ahmed M. Moustafa, Abdur-Rahman H. Muhammad, and Al-Shaimaa A. Younis. (2017). "Hybrid controller for a software-defined architecture of industrial internet lab-scale process." <i>2017 12th International Conference on Computer Engineering and Systems (ICCES)</i>, pp. 266-271.'
 graphical_abstract: /images/publications/hybrid arch.jpg
 ---
 
