@@ -23,5 +23,8 @@ main:
   - title: "Service"
     url: /service/
 
+  - title: "Freelance"
+    url: /freelance/
+
   - title: "CV"
     url: /cv/

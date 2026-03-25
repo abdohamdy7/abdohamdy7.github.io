@@ -1,0 +1,122 @@
+- title: "Stores Management System"
+  category: "Business Software"
+  image: "/images/software/storemanagement.jpeg"
+  summary: "Desktop software for store operations, internal records, and day-to-day administrative workflows."
+  stack:
+    - "Desktop Application"
+    - "Database Workflows"
+    - "Admin Tools"
+
+- title: "Contracts Management System"
+  category: "Business Software"
+  image: "/images/software/contracts_management_system.jpeg"
+  summary: "Administrative software for organizing contracts, internal tracking, and structured data entry."
+  stack:
+    - "Desktop Application"
+    - "Business Logic"
+    - "Database UI"
+
+- title: "Desktop Sales System Using Modern Technologies"
+  category: "Business Software"
+  image: "/images/software/sales_management_system.jpeg"
+  summary: "A sales-oriented desktop application designed around operational clarity, structured interfaces, and practical business workflows."
+  stack:
+    - "Desktop Systems"
+    - "Operations"
+    - "UI Design"
+
+- title: "Cross-Platform Mobile App for Automation and SMS Management"
+  category: "Mobile and Automation"
+  image: "/images/software/cross platform mobile app"
+  summary: "Cross-platform mobile software for automation tasks and SMS-based management workflows."
+  stack:
+    - "Mobile App"
+    - "Automation"
+    - "Messaging"
+
+- title: "Fault-Tolerant Smoke Detector Using IoT, CloudMQTT, and UDP"
+  category: "IoT and Embedded Systems"
+  image: "/images/software/smoke_detector_iot.jpeg"
+  summary: "An IoT communication design combining cloud messaging and alternative UDP communication paths for reliability."
+  stack:
+    - "IoT"
+    - "CloudMQTT"
+    - "UDP"
+
+- title: "Mobile Robot Controlled by Smartphone"
+  category: "Robotics"
+  image: "/images/software/mobile robot smart phone.png"
+  summary: "A robotics project connecting smartphone interaction, embedded control, and real-time robot actuation."
+  stack:
+    - "Robotics"
+    - "Embedded Control"
+    - "Mobile Interface"
+
+- title: "Hardware-in-the-Loop on an Industrial Lab-Scale Process"
+  category: "Control and Automation"
+  image: "/images/software/HIL.JPG"
+  summary: "Hardware-in-the-loop experimentation for industrial process control and validation on a lab-scale setup."
+  stack:
+    - "HIL"
+    - "Industrial Control"
+    - "Testing"
+
+- title: "Industrial IoT for a Lab-Scale Control Process"
+  category: "Control and Automation"
+  image: "/images/software/industrial_iot.JPG"
+  summary: "Applied Industrial IoT ideas to monitoring, communication, and control for a lab-scale engineering process."
+  stack:
+    - "Industrial IoT"
+    - "Monitoring"
+    - "Automation"
+
+- title: "MATLAB GUI for Solving K-Map in Logic Circuit Design"
+  category: "Scientific and Educational Software"
+  image: "/images/software/matlab gui k map"
+  summary: "A MATLAB-based graphical tool supporting logic-circuit design and K-map simplification in an educational setting."
+  stack:
+    - "MATLAB"
+    - "GUI"
+    - "Educational Tools"
+
+- title: "MATLAB Technical Figures for Mechanical Engineering Work"
+  category: "Scientific and Engineering Tools"
+  summary: "MATLAB-based figure generation and technical visualization support for engineering analysis and paper-quality outputs."
+  stack:
+    - "MATLAB"
+    - "Technical Visualization"
+    - "Engineering Support"
+
+- title: "Color Image Denoising with a Pre-Trained Neural Network"
+  category: "Scientific and Engineering Tools"
+  summary: "Software work around image restoration using a pre-trained neural network, combining practical implementation with scientific computing."
+  stack:
+    - "Image Processing"
+    - "Neural Networks"
+    - "Scientific Computing"
+
+- title: "2D Game Development and Animation Using C++ and OpenGL"
+  category: "Graphics and Interactive Software"
+  image: "/images/software/2d_game_development.jpeg"
+  summary: "Interactive 2D graphics and animation projects built with C++, OpenGL, and freeGLUT."
+  stack:
+    - "C++"
+    - "OpenGL"
+    - "Interactive Graphics"
+
+- title: "3D Visualization, Object Development, and Camera Systems in C++ OpenGL"
+  category: "Graphics and Interactive Software"
+  image: "/images/software/3d_game_character_game_development.jpg"
+  summary: "3D graphics work involving object development, scene setup, camera logic, and interactive rendering in OpenGL."
+  stack:
+    - "C++"
+    - "OpenGL"
+    - "3D Visualization"
+
+- title: "Line Follower Robot"
+  category: "Robotics"
+  summary: "A robotics implementation focused on sensing, control, and motion behavior for line-following tasks."
+  stack:
+    - "Robotics"
+    - "Embedded Systems"
+    - "Control Logic"

@@ -17,7 +17,7 @@ redirect_from:
     <h2 class="home-hero__title">Building risk-aware autonomy for intelligent transportation systems</h2>
     <p class="home-hero__lead">I am Abdulrahman Ahmad, a final-year Ph.D. candidate in Computer Science working at the intersection of autonomous driving, motion planning under uncertainty, intelligent transportation systems, and data-driven perception. My research focuses on decision-making and control methods that remain safe, tractable, and deployable in real traffic environments.</p>
     <div class="home-hero__actions">
-      <a class="btn btn--primary" href="/files/cv.pdf">Download CV</a>
+      <span class="btn btn--primary btn--disabled" aria-disabled="true">CV Download Temporarily Unavailable</span>
       <a class="btn btn--inverse" href="/publications/">View Publications</a>
       <a class="btn btn--inverse" href="https://scholar.google.com/citations?user=-yqOHxIAAAAJ&hl=en">Google Scholar</a>
       <a class="btn btn--inverse" href="mailto:abdulrahman_hamdy@ieee.org">Email</a>

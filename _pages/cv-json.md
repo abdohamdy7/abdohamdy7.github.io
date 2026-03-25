@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-The canonical CV is maintained at [the CV page]({{ base_path }}/cv/) and as a [downloadable PDF]({{ base_path }}/files/cv.pdf).
+The canonical CV is maintained at [the CV page]({{ base_path }}/cv/). The downloadable PDF is temporarily unavailable while the document is being updated.

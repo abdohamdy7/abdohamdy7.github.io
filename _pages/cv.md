@@ -10,9 +10,11 @@ redirect_from:
 {% include base_path %}
 
 <p>
-  <a class="btn btn--primary" href="/files/cv.pdf">Download PDF CV</a>
+  <span class="btn btn--primary btn--disabled" aria-disabled="true">PDF Download Temporarily Unavailable</span>
   <a class="btn btn--inverse" href="https://scholar.google.com/citations?user=-yqOHxIAAAAJ&hl=en">Google Scholar</a>
 </p>
+
+<p><em>The PDF version is temporarily unavailable while the CV is being updated.</em></p>
 
 ## Research Summary
 
