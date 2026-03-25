@@ -93,10 +93,10 @@ author_profile: true
   <div class="home-card">
     <p class="home-card__kicker">khawarizmiat</p>
     <h3 class="home-card__title">YouTube teaching channel launched during the transition to online learning</h3>
-    <p>In 2021, I launched the YouTube channel <a href="https://www.youtube.com/channel/UCvh8B0Gy13mpII_TmeCymXA">khawarizmiat</a> as an educational initiative to make engineering and computing coursework more accessible to students. The channel serves as an archive of recorded lectures, tutorials, and course playlists spanning programming, discrete mathematics, signals and systems, intelligent control, computer-controlled systems, and introductory autonomous vehicles topics.</p>
+    <p>In 2021, I launched the YouTube channel <a href="https://www.youtube.com/@khawarizmiat4622/playlists">khawarizmiat</a> as an educational initiative to make engineering and computing coursework more accessible to students. The channel serves as an archive of recorded lectures, tutorials, and course playlists spanning programming, discrete mathematics, signals and systems, intelligent control, computer-controlled systems, and introductory autonomous vehicles topics.</p>
     <p class="teaching-note">The channel is used as a long-form educational resource rather than a general media outlet, with content organized around course playlists and guided explanations.</p>
     <p>
-      <a class="btn btn--primary" href="https://www.youtube.com/channel/UCvh8B0Gy13mpII_TmeCymXA">Visit the khawarizmiat channel</a>
+      <a class="btn btn--primary" href="https://www.youtube.com/@khawarizmiat4622/playlists">Visit the khawarizmiat channel</a>
     </p>
   </div>
 
