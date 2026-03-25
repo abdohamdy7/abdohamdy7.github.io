@@ -22,7 +22,7 @@ repository               : "abdohamdy7/abdohamdy7.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Abdulrahman Ahmad"
   pronouns         : "he/him"
   bio              : "Ph.D. Candidate in Computer Science at Khalifa University working on autonomous driving, intelligent transportation systems, and risk-aware motion planning."
@@ -138,7 +138,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/images/profile.jpg"
+og_image                 : "/images/profile.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
