@@ -49,6 +49,16 @@ $brand-border: #cfe2d8;
 $brand-muted: #557167;
 $brand-shadow: 0 18px 40px rgba(23, 53, 45, 0.08);
 
+.masthead .greedy-nav a,
+.masthead .greedy-nav a:visited {
+  color: #000000;
+}
+
+.masthead .greedy-nav a:hover,
+.masthead .greedy-nav a:focus {
+  color: #000000;
+}
+
 .page__title,
 .home-hero__title,
 .home-section__title,
