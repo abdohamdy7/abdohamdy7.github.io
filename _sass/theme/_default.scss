@@ -1,24 +1,24 @@
 /* ==========================================================================
-   TAUPE THEME (Warm, Formal, Neutral)
+   BLUE THEME (Navy, Sky, Ice)
    ========================================================================== */
 
-/* Taupe + Charcoal Color Palette */
-$taupe-bg         : #f4efe8;
-$taupe-surface    : #fcfaf6;
-$taupe-footer     : #d8ccbf;
-$taupe-border     : #c3b6a8;
-$taupe-dark-border: #a99787;
-$charcoal         : #24211f;
-$taupe-muted      : #706a63;
-$taupe-light      : #8e867d;
-$brown-link       : #6d4c3d;
-$brown-hover      : #3a2922;
-$brown-visited    : #8a6656;
+/* Navy and Light Blue Color Palette */
+$blue-bg         : #f1f7fc;
+$blue-surface    : #ffffff;
+$blue-footer     : #dcebf7;
+$blue-border     : #bfd3e6;
+$blue-dark-border: #8aaac7;
+$navy         : #102d4e;
+$blue-muted      : #48627c;
+$blue-light      : #526f89;
+$blue-link       : #185a96;
+$blue-hover      : #0b355d;
+$blue-visited    : #325f8b;
 
 /* Accent Colors */
 $danger-color     : #b85c52;
-$info-color       : #586366;
-$notice-color     : #c3b6a8;
+$info-color       : #246da8;
+$notice-color     : #bfd3e6;
 $success-color    : #6f7f62;
 $warning-color    : #c99044;
 
@@ -32,22 +32,22 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Taupe Theme Variables */
+/* Blue Theme Variables */
 :root {
-  --global-base-color                 : #{$taupe-muted};
-  --global-bg-color                   : #{$taupe-bg};
-  --global-footer-bg-color            : #{$taupe-footer};
-  --global-border-color               : #{$taupe-border};
-  --global-dark-border-color          : #{$taupe-dark-border};
-  --global-code-background-color      : #f8f3ed;
-  --global-code-text-color            : #{$charcoal};
-  --global-fig-caption-color          : #{$taupe-muted};
-  --global-link-color                 : #{$brown-link};
-  --global-link-color-hover           : #{$brown-hover};
-  --global-link-color-visited         : #{$brown-visited};
-  --global-masthead-link-color        : #{$charcoal};
-  --global-masthead-link-color-hover  : #{$brown-link};
-  --global-text-color                 : #{$charcoal};
-  --global-text-color-light           : #{$taupe-light};
-  --global-thead-color                : #{$taupe-footer};
+  --global-base-color                 : #{$blue-link};
+  --global-bg-color                   : #{$blue-bg};
+  --global-footer-bg-color            : #{$blue-footer};
+  --global-border-color               : #{$blue-border};
+  --global-dark-border-color          : #{$blue-dark-border};
+  --global-code-background-color      : #e6f0fa;
+  --global-code-text-color            : #{$navy};
+  --global-fig-caption-color          : #{$blue-muted};
+  --global-link-color                 : #{$blue-link};
+  --global-link-color-hover           : #{$blue-hover};
+  --global-link-color-visited         : #{$blue-visited};
+  --global-masthead-link-color        : #{$navy};
+  --global-masthead-link-color-hover  : #{$blue-link};
+  --global-text-color                 : #{$navy};
+  --global-text-color-light           : #{$blue-light};
+  --global-thead-color                : #{$blue-footer};
 }

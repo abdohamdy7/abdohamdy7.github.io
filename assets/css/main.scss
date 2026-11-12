@@ -42,12 +42,45 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
-$brand-ink: #24211f;
-$brand-accent: #6d4c3d;
-$brand-accent-soft: #eee3d8;
-$brand-border: #c3b6a8;
-$brand-muted: #706a63;
-$brand-shadow: 0 18px 40px rgba(36, 33, 31, 0.08);
+/* Shared custom-component palette: keep both display modes consistent. */
+:root {
+  --brand-ink: #102d4e;
+  --brand-accent: #185a96;
+  --brand-accent-soft: #e2effb;
+  --brand-border: #bfd3e6;
+  --brand-muted: #48627c;
+  --brand-surface: #ffffff;
+  --brand-surface-tint: #f1f7fc;
+  --brand-gradient-end: #d5e9fa;
+  --brand-hover: #cce3f7;
+  --brand-glow: rgba(48, 130, 199, 0.13);
+  --brand-panel: rgba(255, 255, 255, 0.88);
+  --brand-shadow: 0 18px 40px rgba(16, 45, 78, 0.08);
+  --brand-card-shadow: 0 12px 30px rgba(16, 45, 78, 0.06);
+}
+
+html[data-theme="dark"] {
+  --brand-ink: #e8f2ff;
+  --brand-accent: #9bd0ff;
+  --brand-accent-soft: #203d5a;
+  --brand-border: #42617e;
+  --brand-muted: #bacfe3;
+  --brand-surface: #132840;
+  --brand-surface-tint: #102338;
+  --brand-gradient-end: #214566;
+  --brand-hover: #2c5172;
+  --brand-glow: rgba(93, 172, 240, 0.16);
+  --brand-panel: rgba(19, 40, 64, 0.88);
+  --brand-shadow: 0 18px 40px rgba(0, 8, 20, 0.22);
+  --brand-card-shadow: 0 12px 30px rgba(0, 8, 20, 0.18);
+}
+
+$brand-ink: var(--brand-ink);
+$brand-accent: var(--brand-accent);
+$brand-accent-soft: var(--brand-accent-soft);
+$brand-border: var(--brand-border);
+$brand-muted: var(--brand-muted);
+$brand-shadow: var(--brand-shadow);
 
 .masthead .greedy-nav a,
 .masthead .greedy-nav a:visited {
@@ -80,8 +113,8 @@ $brand-shadow: 0 18px 40px rgba(36, 33, 31, 0.08);
   border: 1px solid $brand-border;
   border-radius: 24px;
   background:
-    radial-gradient(circle at top right, rgba(109, 76, 61, 0.12), transparent 32%),
-    linear-gradient(135deg, #fcfaf6 0%, #f7f1e9 45%, #eadfd4 100%);
+    radial-gradient(circle at top right, var(--brand-glow), transparent 32%),
+    linear-gradient(135deg, var(--brand-surface) 0%, var(--brand-surface-tint) 45%, var(--brand-gradient-end) 100%);
   box-shadow: $brand-shadow;
 }
 
@@ -129,7 +162,7 @@ $brand-shadow: 0 18px 40px rgba(36, 33, 31, 0.08);
   padding: 1.25rem;
   border: 1px solid $brand-border;
   border-radius: 18px;
-  background: rgba(252, 250, 246, 0.88);
+  background: var(--brand-panel);
 }
 
 .home-hero__facts,
@@ -229,8 +262,8 @@ $brand-shadow: 0 18px 40px rgba(36, 33, 31, 0.08);
   padding: 1.3rem 1.35rem;
   border: 1px solid $brand-border;
   border-radius: 18px;
-  background: #fcfaf6;
-  box-shadow: 0 12px 30px rgba(36, 33, 31, 0.06);
+  background: var(--brand-surface);
+  box-shadow: var(--brand-card-shadow);
 }
 
 .home-card__title {
@@ -322,7 +355,7 @@ $brand-shadow: 0 18px 40px rgba(36, 33, 31, 0.08);
   padding: 0.95rem 1rem;
   border-left: 3px solid $brand-accent;
   border-radius: 12px;
-  background: linear-gradient(180deg, #fcfaf6 0%, #eee3d8 100%);
+  background: linear-gradient(180deg, var(--brand-surface) 0%, var(--brand-accent-soft) 100%);
 }
 
 .teaching-playlist-grid {
@@ -334,8 +367,8 @@ $brand-shadow: 0 18px 40px rgba(36, 33, 31, 0.08);
 
 .software-hero {
   background:
-    radial-gradient(circle at top right, rgba(201, 144, 68, 0.15), transparent 28%),
-    linear-gradient(135deg, #fcfaf6 0%, #f7f1e9 45%, #ebe0d5 100%);
+    radial-gradient(circle at top right, var(--brand-glow), transparent 28%),
+    linear-gradient(135deg, var(--brand-surface) 0%, var(--brand-surface-tint) 45%, var(--brand-gradient-end) 100%);
 }
 
 .project-grid,
@@ -355,8 +388,8 @@ $brand-shadow: 0 18px 40px rgba(36, 33, 31, 0.08);
 .publication-card {
   border: 1px solid $brand-border;
   border-radius: 18px;
-  background: #fcfaf6;
-  box-shadow: 0 12px 30px rgba(36, 33, 31, 0.06);
+  background: var(--brand-surface);
+  box-shadow: var(--brand-card-shadow);
 }
 
 .project-card,
@@ -429,8 +462,8 @@ $brand-shadow: 0 18px 40px rgba(36, 33, 31, 0.08);
 .testimonial-card {
   border: 1px solid $brand-border;
   border-radius: 18px;
-  background: #fcfaf6;
-  box-shadow: 0 12px 30px rgba(36, 33, 31, 0.06);
+  background: var(--brand-surface);
+  box-shadow: var(--brand-card-shadow);
   overflow: hidden;
 }
 
@@ -445,7 +478,7 @@ $brand-shadow: 0 18px 40px rgba(36, 33, 31, 0.08);
 
 .software-card__media {
   aspect-ratio: 16 / 9;
-  background: linear-gradient(180deg, #f1ebe3 0%, #d8ccbf 100%);
+  background: linear-gradient(180deg, var(--brand-surface-tint) 0%, var(--brand-gradient-end) 100%);
 }
 
 .software-card__media img {
@@ -502,7 +535,7 @@ $brand-shadow: 0 18px 40px rgba(36, 33, 31, 0.08);
 }
 
 .testimonial-card__stars {
-  color: #c99044;
+  color: var(--brand-accent);
   letter-spacing: 0.1em;
   font-size: 0.95rem;
 }
@@ -526,8 +559,8 @@ $brand-shadow: 0 18px 40px rgba(36, 33, 31, 0.08);
 
 .software-cta {
   background:
-    radial-gradient(circle at top right, rgba(109, 76, 61, 0.1), transparent 28%),
-    linear-gradient(180deg, #fcfaf6 0%, #f4efe8 100%);
+    radial-gradient(circle at top right, var(--brand-glow), transparent 28%),
+    linear-gradient(180deg, var(--brand-surface) 0%, var(--brand-surface-tint) 100%);
 }
 
 .updates-feed--compact {
@@ -576,7 +609,7 @@ $brand-shadow: 0 18px 40px rgba(36, 33, 31, 0.08);
   margin: 1.5rem 0 1rem;
   border: 1px solid $brand-border;
   border-radius: 18px;
-  background: linear-gradient(180deg, #fcfaf6 0%, #f4efe8 100%);
+  background: linear-gradient(180deg, var(--brand-surface) 0%, var(--brand-surface-tint) 100%);
 }
 
 .publication-filter-group {
@@ -602,7 +635,7 @@ $brand-shadow: 0 18px 40px rgba(36, 33, 31, 0.08);
   padding: 0.55rem 0.9rem;
   border: 1px solid $brand-border;
   border-radius: 999px;
-  background: #fcfaf6;
+  background: var(--brand-surface);
   color: $brand-muted;
   cursor: pointer;
   font-weight: 600;
@@ -620,7 +653,7 @@ $brand-shadow: 0 18px 40px rgba(36, 33, 31, 0.08);
   padding: 0.8rem 0.95rem;
   border: 1px solid $brand-border;
   border-radius: 12px;
-  background: #fcfaf6;
+  background: var(--brand-surface);
   color: $brand-ink;
 }
 
@@ -645,7 +678,7 @@ $brand-shadow: 0 18px 40px rgba(36, 33, 31, 0.08);
 
 .publication-card__media {
   min-height: 100%;
-  background: linear-gradient(135deg, #eee3d8 0%, #d8ccbf 100%);
+  background: linear-gradient(135deg, var(--brand-accent-soft) 0%, var(--brand-gradient-end) 100%);
 }
 
 .publication-card__media img {
@@ -716,7 +749,7 @@ $brand-shadow: 0 18px 40px rgba(36, 33, 31, 0.08);
 }
 
 .publication-card__links a:hover {
-  background: #e2d4c7;
+  background: var(--brand-hover);
 }
 
 .pub-badge {
@@ -727,12 +760,12 @@ $brand-shadow: 0 18px 40px rgba(36, 33, 31, 0.08);
   font-weight: 700;
   line-height: 1.2;
   text-transform: capitalize;
-  background: #fcfaf6;
+  background: var(--brand-surface);
 }
 
 .pub-badge--category,
 .pub-badge--metric {
-  border-color: #b7a797;
+  border-color: var(--brand-border);
   background: $brand-accent-soft;
   color: $brand-accent;
 }
@@ -742,7 +775,7 @@ $brand-shadow: 0 18px 40px rgba(36, 33, 31, 0.08);
   padding: 1rem;
   border: 1px solid $brand-border;
   border-radius: 18px;
-  background: linear-gradient(180deg, #fcfaf6 0%, #f4efe8 100%);
+  background: linear-gradient(180deg, var(--brand-surface) 0%, var(--brand-surface-tint) 100%);
 }
 
 .publication-figure img {

@@ -3,23 +3,23 @@
    ========================================================================== */
 
 /* Color codes used for the theme */
-$gray                       : #8e867d;
+$gray                       : #8aa6c2;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 
-$background                 : #24211f;
+$background                 : #0b192d;
 $background-light           : mix(#fff, $background, 80%);
 $background-lighter         : mix(#fff, $background, 90%);
-$text                       : #fcfaf6;
-$link                       : #d8ccbf;
-$link-dark                  : #c99044;
-$link-light                 : #eee3d8;
+$text                       : #e8f2ff;
+$link                       : #9bd0ff;
+$link-dark                  : #b9e0ff;
+$link-light                 : #b2d6fa;
 
 /* Color codes used for the site */
 $danger-color               : #c16a5c;
-$info-color                 : #b7a797;
-$notice-color               : #8e867d;
+$info-color                 : #2b70a8;
+$notice-color               : #8aa6c2;
 $success-color              : #9ba37c;
 $warning-color              : #c99044;
 
@@ -35,13 +35,13 @@ $sidebar-screen-min-width   : 1024px;
 
 /* Dark theme for the site */
 html[data-theme="dark"] {
-    --global-base-color                 : #{$background};
+    --global-base-color                 : #246da8;
     --global-bg-color                   : #{$background};
     --global-footer-bg-color            : #{$background};
     --global-border-color               : #{$light-gray};
     --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
+    --global-code-background-color      : #152c46;
+    --global-code-text-color            : #{$text};
     --global-fig-caption-color          : #{$light-gray};
     --global-link-color                 : #{$link};
     --global-link-color-hover           : #{$link-dark};
@@ -50,5 +50,5 @@ html[data-theme="dark"] {
     --global-masthead-link-color-hover  : #{$background-light};
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #{$background-lighter};
+    --global-thead-color                : #203d5a;
 }
