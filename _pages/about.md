@@ -2,6 +2,7 @@
 permalink: /
 title: "Abdulrahman Ahmad"
 author_profile: true
+author_portrait: "abdulrahman-ahmad-portrait.jpg"
 redirect_from:
   - /about/
   - /about.html

@@ -4,10 +4,12 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
-<div itemscope itemtype="http://schema.org/Person">
+<div{% if page.author_portrait %} class="author-profile--portrait"{% endif %} itemscope itemtype="http://schema.org/Person">
 
   <div class="author__avatar">
-    {% if author.avatar contains "://" %}
+    {% if page.author_portrait %}
+      <img src="{{ page.author_portrait | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }} standing in a suit with hands folded" width="1157" height="1600" fetchpriority="high">
+    {% elsif author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">

@@ -106,6 +106,39 @@
   }
 }
 
+/* Preserve the complete homepage portrait, including the welcoming pose. */
+.author-profile--portrait .author__avatar {
+  display: block;
+  width: 100%;
+  max-width: 240px;
+  margin-bottom: 1em;
+}
+
+.author-profile--portrait .author__avatar img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+  border-radius: 0;
+}
+
+.author-profile--portrait .author__content {
+  display: block;
+  padding: 0;
+}
+
+.author-profile--portrait .author__urls-wrapper {
+  display: block;
+  margin-top: 1em;
+}
+
+.author-profile--portrait .author__urls {
+  left: 0;
+  right: auto;
+}
+
 .author__content {
   display: table-cell;
   vertical-align: top;
