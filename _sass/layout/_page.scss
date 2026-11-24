@@ -34,6 +34,28 @@
   }
 }
 
+/* The homepage has no right sidebar, so use the available screen width. */
+#main.main--home {
+  max-width: none;
+
+  @include breakpoint($large) {
+    > .page {
+      padding-right: 0;
+    }
+  }
+
+  @include breakpoint($x-large) {
+    > .sidebar {
+      width: $sidebar-link-max-width;
+    }
+
+    > .page {
+      width: calc(100% - #{$sidebar-link-max-width});
+      padding-left: 2.5rem;
+    }
+  }
+}
+
 .page__title {
   margin-top: 0;
   line-height: 1;

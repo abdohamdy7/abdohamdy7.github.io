@@ -112,6 +112,11 @@
   width: 100%;
   max-width: 240px;
   margin-bottom: 1em;
+
+  @include breakpoint(max-width ($large - 1px)) {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .author-profile--portrait .author__avatar img {
